@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сопроводительное письмо.md",
+                "file": "Git/Push.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Сопроводительное письмо"
+              "title": "Push"
             }
           },
           {
@@ -208,9 +208,11 @@
   },
   "active": "127783ed261186aa",
   "lastOpenFiles": [
+    "Git/SSH ключ.md",
+    "Git/Push.md",
+    "Сопроводительное письмо.md",
     "Linux/Использование ресурсов.md",
     "Linux/Изменить владельца.md",
-    "Сопроводительное письмо.md",
     "Laravel/Кеш.md",
     "PHP/XML.md",
     "Laravel/Scopes/Глобальный Scope.md",
@@ -233,9 +235,7 @@
     "Linux/Копирование файлов.md",
     "Docker/Выполнить команду.md",
     "Docker/Контейнеры.md",
-    "Посмотреть.md",
     "Docker",
-    "Tailwind/Плавное изменение цвета.md",
     "PHP",
     "Vscode",
     "Tailwind",
