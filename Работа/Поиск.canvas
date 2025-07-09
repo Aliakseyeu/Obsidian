@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"f89f02e487711354","x":-80,"y":-346,"width":250,"height":60,"type":"text","text":"Base"},
+		{"id":"a03ce353c34af1a3","x":170,"y":-200,"width":250,"height":60,"type":"text","text":"Page"},
+		{"id":"9ee541eb7a19356a","x":-330,"y":-195,"width":250,"height":55,"type":"text","text":"Ajax"},
+		{"id":"3b3959e6df3400c9","x":-297,"y":-23,"width":250,"height":60,"type":"text","text":"In amount"},
+		{"id":"61e3e3d139971f36","x":-760,"y":-100,"width":250,"height":60,"type":"text","text":"Categories"},
+		{"id":"4ec800029929bdbf","x":-635,"y":37,"width":250,"height":60,"type":"text","text":"Out of amount"}
+	],
+	"edges":[
+		{"id":"321101d882b02892","fromNode":"f89f02e487711354","fromSide":"left","toNode":"9ee541eb7a19356a","toSide":"top"},
+		{"id":"7349019ac3797f34","fromNode":"f89f02e487711354","fromSide":"right","toNode":"a03ce353c34af1a3","toSide":"top"},
+		{"id":"36be501ea49bc481","fromNode":"9ee541eb7a19356a","fromSide":"left","toNode":"61e3e3d139971f36","toSide":"top"},
+		{"id":"7b9354ab30b99474","fromNode":"9ee541eb7a19356a","fromSide":"bottom","toNode":"4ec800029929bdbf","toSide":"top"},
+		{"id":"2f69d0cbf65b9578","fromNode":"9ee541eb7a19356a","fromSide":"bottom","toNode":"3b3959e6df3400c9","toSide":"top"}
+	]
+}

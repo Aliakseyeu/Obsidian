@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "48822efad9ca8bb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "09354f031497e68a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19b8daf64f8927f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Laravel/Кеш.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Кеш"
+            }
+          },
+          {
+            "id": "127783ed261186aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Сопроводительное письмо.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сопроводительное письмо"
+            }
+          },
+          {
+            "id": "a3571e3bf83dd210",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/Lpad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lpad"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f296580bdfbc9824",
+    "type": "split",
+    "children": [
+      {
+        "id": "c95de039f122e023",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee02fe1311ed04e4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "688ed35d1480601b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "root",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8be52f51b5dc5f75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5508c9f60b3258ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff0ffc51df95a426",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ac68a7fef771ce8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2b5df9d619853a30",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "16ee0985e312b475",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d53b654340b4d046",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Работа/Остатки.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Остатки"
+            }
+          },
+          {
+            "id": "e49a98e99d85ebd0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "127783ed261186aa",
+  "lastOpenFiles": [
+    "Linux/Использование ресурсов.md",
+    "Linux/Изменить владельца.md",
+    "Сопроводительное письмо.md",
+    "Laravel/Кеш.md",
+    "PHP/XML.md",
+    "Laravel/Scopes/Глобальный Scope.md",
+    "Laravel/Scopes/NotHidden.md",
+    "Laravel/Scopes/WhereManyToMany.md",
+    "Laravel/Scopes/MaxCaseScope.md",
+    "Laravel/Ключ uuid.md",
+    "Laravel/Установка Laravel.md",
+    "Работа/Остатки.canvas",
+    "MySQL/Coalesce.md",
+    "MySQL/Concat.md",
+    "MySQL/Lpad.md",
+    "PHP/Потребление ресурсов.md",
+    "PHP/Существование файла по урл.md",
+    "Linux/bash_profile.md",
+    "Laravel/Установка пользователя для Artisan.md",
+    "JavaScript/Яндекс карты.md",
+    "Laravel/Артисан прогрессбар.md",
+    "MySQL/Резервное копирование БД.md",
+    "Linux/Копирование файлов.md",
+    "Docker/Выполнить команду.md",
+    "Docker/Контейнеры.md",
+    "Посмотреть.md",
+    "Docker",
+    "Tailwind/Плавное изменение цвета.md",
+    "PHP",
+    "Vscode",
+    "Tailwind",
+    "NodeJS & NPM",
+    "Сайты",
+    "Laravel/Enums",
+    "Laravel/Scopes",
+    "Работа/Поиск.canvas",
+    "Untitled/Untitled",
+    "Untitled 1",
+    "Работа/Стоимость мини корзины.canvas",
+    "Работа/Типы цен.canvas",
+    "1С/Создание заказа.canvas",
+    "Test/Untitled.canvas"
+  ]
+}

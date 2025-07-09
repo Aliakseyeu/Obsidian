@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"a08e7374794a7612","type":"text","text":"Добавление в корзину","x":-555,"y":-680,"width":250,"height":60},
+		{"id":"1569d2caf26323c5","type":"text","text":"Получение актуальных цен\n","x":275,"y":-250,"width":250,"height":60},
+		{"id":"fdc8b6e134bebf30","type":"text","text":"Обновить БД\n","x":-480,"y":-440,"width":250,"height":60,"color":"3"},
+		{"id":"c0e5e76ae1892dfc","type":"text","text":"Консольная команда\n","x":44,"y":44,"width":250,"height":60},
+		{"id":"027e7118d711278d","type":"text","text":"Вход в корзину","x":80,"y":-620,"width":220,"height":50},
+		{"id":"b7f4993957fdeade","type":"text","text":"Кеш. Сумма","x":-695,"y":-240,"width":200,"height":50,"color":"4"},
+		{"id":"1d09c01d824b7f1c","type":"text","text":"Обновить кеш\n","x":-355,"y":-206,"width":250,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"6111c6afc448cd5e","fromNode":"1d09c01d824b7f1c","fromSide":"left","toNode":"b7f4993957fdeade","toSide":"right"},
+		{"id":"8aa180b91c6b9100","fromNode":"027e7118d711278d","fromSide":"bottom","toNode":"1569d2caf26323c5","toSide":"top"},
+		{"id":"4e32119f83fb6c44","fromNode":"a08e7374794a7612","fromSide":"bottom","toNode":"fdc8b6e134bebf30","toSide":"top"},
+		{"id":"cc6b179d0de2609a","fromNode":"fdc8b6e134bebf30","fromSide":"bottom","toNode":"1d09c01d824b7f1c","toSide":"top"},
+		{"id":"83b3ac68db85f766","fromNode":"1569d2caf26323c5","fromSide":"left","toNode":"fdc8b6e134bebf30","toSide":"right"},
+		{"id":"b3f159846fdd10fb","fromNode":"c0e5e76ae1892dfc","fromSide":"top","toNode":"1569d2caf26323c5","toSide":"bottom"}
+	]
+}

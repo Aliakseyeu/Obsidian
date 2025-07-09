@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"1a811f072651a888","type":"text","text":"Соглашение\n---\nprice_type_uuid","x":-53,"y":-271,"width":250,"height":171,"color":"4"},
+		{"id":"afbd916ae6e5b3ab","type":"text","text":"Ценовые группы\n---\nuuid","x":-480,"y":320,"width":290,"height":140,"color":"4"},
+		{"id":"8ff5bfb072cf0708","type":"text","text":"Типы цен\n---\nuuid","x":-440,"y":-600,"width":250,"height":120,"color":"4"},
+		{"id":"b92b4f854b9191c2","type":"text","text":"Тип цены - Товар\n---\nitem_uuid\nprice_type_uuid\nvalue","x":-657,"y":-308,"width":274,"height":148,"color":"3"},
+		{"id":"2724e2b66b730ec5","type":"text","text":"Соглашение - Ценовая группа\n---\nagreement_uuid\nprice_group_uuid\nprice_type_uuid","x":-131,"y":82,"width":371,"height":178,"color":"3"},
+		{"id":"2727ef2fd3dca21e","type":"text","text":"Товар\n---\nuuid\nprice_group_uuid","x":-605,"y":0,"width":250,"height":142,"color":"4"},
+		{"id":"b9346e00b4f741a0","type":"text","text":"Выбрано ли соглашение","x":730,"y":-571,"width":250,"height":60},
+		{"id":"403f25a0d5476e68","type":"text","text":"Тип цены по-умолчанию","x":980,"y":-415,"width":250,"height":60},
+		{"id":"c7727ea264394a7b","type":"text","text":"Тип цены соглашения","x":480,"y":-415,"width":250,"height":60},
+		{"id":"d6fec6b7af0d714e","type":"text","text":"Есть ли ценовая группа у товара","x":730,"y":-151,"width":250,"height":60},
+		{"id":"0e1c6ce3e0ca02c2","type":"text","text":"Получаем другой тип цены у соглашения","x":480,"y":9,"width":250,"height":60},
+		{"id":"98babd0d846e081b","type":"text","text":"Значение","x":730,"y":189,"width":250,"height":60},
+		{"id":"224b9c5a12b144ae","type":"text","text":"Оставляем тип цены","x":980,"y":9,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"53173f0ffd5b1681","fromNode":"2727ef2fd3dca21e","fromSide":"bottom","toNode":"afbd916ae6e5b3ab","toSide":"top"},
+		{"id":"54da780e427e5b76","fromNode":"1a811f072651a888","fromSide":"left","toNode":"8ff5bfb072cf0708","toSide":"right"},
+		{"id":"bc92ab2d1d2642a3","fromNode":"b92b4f854b9191c2","fromSide":"bottom","toNode":"2727ef2fd3dca21e","toSide":"top"},
+		{"id":"6f9941eaf63b006c","fromNode":"2724e2b66b730ec5","fromSide":"bottom","toNode":"afbd916ae6e5b3ab","toSide":"right"},
+		{"id":"4249bc0e5ca6810b","fromNode":"2724e2b66b730ec5","fromSide":"top","toNode":"1a811f072651a888","toSide":"bottom"},
+		{"id":"e29993b73d313cf2","fromNode":"2724e2b66b730ec5","fromSide":"left","toNode":"8ff5bfb072cf0708","toSide":"bottom"},
+		{"id":"3c5eba2b5ae42180","fromNode":"b92b4f854b9191c2","fromSide":"top","toNode":"8ff5bfb072cf0708","toSide":"left"},
+		{"id":"ec7e4f887ea8336e","fromNode":"b9346e00b4f741a0","fromSide":"left","toNode":"c7727ea264394a7b","toSide":"top","color":"4","label":"Да"},
+		{"id":"0dc846883c03f787","fromNode":"b9346e00b4f741a0","fromSide":"right","toNode":"403f25a0d5476e68","toSide":"top","color":"1","label":"Нет"},
+		{"id":"91e6015d2eff1036","fromNode":"d6fec6b7af0d714e","fromSide":"left","toNode":"0e1c6ce3e0ca02c2","toSide":"top","color":"4","label":"Да"},
+		{"id":"f93545af12c669b5","fromNode":"d6fec6b7af0d714e","fromSide":"right","toNode":"224b9c5a12b144ae","toSide":"top","color":"1","label":"Нет"},
+		{"id":"e6c214c73a0f8f9d","fromNode":"0e1c6ce3e0ca02c2","fromSide":"bottom","toNode":"98babd0d846e081b","toSide":"left","color":"3"},
+		{"id":"a498751f33ec314e","fromNode":"224b9c5a12b144ae","fromSide":"bottom","toNode":"98babd0d846e081b","toSide":"right","color":"3"},
+		{"id":"031d04731259cf96","fromNode":"c7727ea264394a7b","fromSide":"bottom","toNode":"d6fec6b7af0d714e","toSide":"top","color":"3"},
+		{"id":"0ecec92467b3603c","fromNode":"403f25a0d5476e68","fromSide":"bottom","toNode":"d6fec6b7af0d714e","toSide":"top","color":"3"}
+	]
+}

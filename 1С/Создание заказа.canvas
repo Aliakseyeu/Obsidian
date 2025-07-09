@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"b9444184643936ed","x":300,"y":-307,"width":250,"height":60,"type":"text","text":"Вкладка Товары"},
+		{"id":"71da914a1925eab4","x":-426,"y":-307,"width":250,"height":60,"type":"text","text":"Продажи"},
+		{"id":"dcce2054914b15f6","x":-425,"y":-220,"width":250,"height":60,"type":"text","text":"Заказы клиентов"},
+		{"id":"95b9610dab3a5745","x":-425,"y":-120,"width":250,"height":60,"type":"text","text":"Создать"},
+		{"id":"d5fed8b749c12279","x":-60,"y":-307,"width":250,"height":60,"type":"text","text":"Вкладка Основное"},
+		{"id":"4c80e06cab72ea83","x":-60,"y":-220,"width":250,"height":100,"type":"text","text":"Клиент\nСоглашение\nСклад"},
+		{"id":"850934c87708372f","x":300,"y":-221,"width":256,"height":81,"type":"text","text":"Заполнить\nПодобрать товары"},
+		{"id":"e8d20cea23f189f5","x":303,"y":-120,"width":250,"height":120,"type":"text","text":"Код / Название\nДвойной клик\nКоличество\nПеренести в документ"},
+		{"id":"3d12ed5b2c5afa9b","x":620,"y":-120,"width":250,"height":60,"type":"text","text":"Снизу отображаются партии"}
+	],
+	"edges":[
+		{"id":"ecfffad0f4df7732","fromNode":"71da914a1925eab4","fromSide":"bottom","toNode":"dcce2054914b15f6","toSide":"top"},
+		{"id":"29c0a246bb81a5e3","fromNode":"dcce2054914b15f6","fromSide":"bottom","toNode":"95b9610dab3a5745","toSide":"top"},
+		{"id":"a60ae5b4dc269738","fromNode":"95b9610dab3a5745","fromSide":"bottom","toNode":"d5fed8b749c12279","toSide":"top"},
+		{"id":"f6a769b0a6adc2c6","fromNode":"d5fed8b749c12279","fromSide":"bottom","toNode":"4c80e06cab72ea83","toSide":"top"},
+		{"id":"a1a8d2a058d31c2e","fromNode":"4c80e06cab72ea83","fromSide":"bottom","toNode":"b9444184643936ed","toSide":"top"},
+		{"id":"e954af2ad74d4d4b","fromNode":"b9444184643936ed","fromSide":"bottom","toNode":"850934c87708372f","toSide":"top"},
+		{"id":"9426af37c883b197","fromNode":"850934c87708372f","fromSide":"bottom","toNode":"e8d20cea23f189f5","toSide":"top"},
+		{"id":"fc09c7fc5ce8e499","fromNode":"e8d20cea23f189f5","fromSide":"right","toNode":"3d12ed5b2c5afa9b","toSide":"left"}
+	]
+}
