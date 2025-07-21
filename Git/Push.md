@@ -12,4 +12,4 @@
 - Добавить в GitHub публичную часть
 - Проверить подключение ssh -T git@github.com
 - Если нужно перевести репозиторий на ssh - git remote set-url origin git@github.com:ваш_username/репозиторий.git
-- git push origin master
+- git push -u origin master

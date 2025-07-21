@@ -2,23 +2,26 @@
 ```
 sudo apt-get update
 sudo apt-get install supervisor
-sudo nano /etc/supervisor/conf.d/laravel-worker.conf
+sudo nano /etc/supervisor/conf.d/alfastok_private_queue.conf
 ```
 
-```[program:laravel-worker]
+```
+[program:alfastok_private_queue]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/www-root/data/www/alfastok_private/artisan queue:work --sleep=3 --tries=3 --timeout=90
 autostart=true
 autorestart=true
-user=www-data
+stopasgroup=true
+killasgroup=true
+user=www-root
 numprocs=1
 redirect_stderr=true
-stdout_logfile=/var/www/www-root/data/www/alfastok_private/storage/logs/worker.log
-
+#stdout_logfile=/var/www/www-root/data/www/alfastok_private/storage/logs/supervisor.log
+stopwaitsecs=3600
 ```
 
 ```
 sudo supervisorctl reread
 sudo supervisorctl update
-sudo supervisorctl start laravel-worker
+sudo supervisorctl start alfastok_private_queue
 ```
