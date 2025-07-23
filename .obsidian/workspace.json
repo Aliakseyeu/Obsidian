@@ -25,17 +25,14 @@
             "id": "127783ed261186aa",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Работа/Типы цен.canvas",
-                "viewState": {
-                  "x": 225.9208680443562,
-                  "y": -5.7889148947848525,
-                  "zoom": -1.701969617585511
-                }
+                "file": "Tailwind/Plugin.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Типы цен"
+              "icon": "lucide-file",
+              "title": "Plugin"
             }
           },
           {
@@ -211,6 +208,9 @@
   },
   "active": "127783ed261186aa",
   "lastOpenFiles": [
+    "Tailwind/Safelist.md",
+    "Tailwind/Plugin.md",
+    "Работа/Типы цен.canvas",
     "Работа/Стоимость мини корзины.canvas",
     "Работа/Поиск.canvas",
     "Работа/Остатки.canvas",
@@ -241,7 +241,6 @@
     "Laravel/Scopes/Глобальный Scope.md",
     "Laravel/Scopes/NotHidden.md",
     "Laravel/Scopes/WhereManyToMany.md",
-    "Laravel/Scopes/MaxCaseScope.md",
     "Docker",
     "PHP",
     "Vscode",
@@ -249,7 +248,6 @@
     "NodeJS & NPM",
     "Сайты",
     "Laravel/Enums",
-    "Работа/Типы цен.canvas",
     "1С/Создание заказа.canvas",
     "Test/Untitled.canvas"
   ]
