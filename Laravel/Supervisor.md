@@ -1,4 +1,5 @@
-#laravel #linux
+#laravel #linux #supervisor
+
 ```
 sudo apt-get update
 sudo apt-get install supervisor

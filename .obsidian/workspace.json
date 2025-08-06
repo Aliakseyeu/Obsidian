@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "09354f031497e68a",
+        "id": "315492861f294714",
         "type": "tabs",
         "children": [
           {
-            "id": "19b8daf64f8927f1",
+            "id": "33f905637dd3b95f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Кеш.md",
+                "file": "Посмотреть.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Кеш"
-            }
-          },
-          {
-            "id": "127783ed261186aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tailwind/Plugin.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Plugin"
-            }
-          },
-          {
-            "id": "a3571e3bf83dd210",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MySQL/Lpad.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lpad"
+              "title": "Посмотреть"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "supervi",
+                "query": "файл",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Посмотреть.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Посмотреть"
             }
           },
           {
@@ -189,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,48 +178,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "127783ed261186aa",
+  "active": "33f905637dd3b95f",
   "lastOpenFiles": [
-    "Tailwind/Safelist.md",
-    "Tailwind/Plugin.md",
+    "Search.md",
+    "Поиск работы/Резюме/Алексеев Сергей.pdf",
+    "Посмотреть.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Поиск работы/Резюме/Khomyakova Valentina QA Engineer.pdf",
+    "JavaScript/Совпадение с подстрокой по регулярке.md",
+    "Поиск работы/Резюме/Алексеев Сергей 1стр2.docx",
+    "Laravel/Supervisor.md",
+    "Поиск работы/Резюме",
+    "Поиск работы/Резюме/Lazareuskiy Anton.pdf",
+    "Поиск работы/Резюме/CV_К.Деменчук_PM.pdf",
+    "Linux/Скрипт перезапуска процесса.md",
+    "Linux/Grep.md",
+    "Linux/bash_profile.md",
+    "Linux/Pipes и Операторы перенаправления вывода.md",
+    "Linux/Процессы.md",
+    "MySQL/Транспонирование таблицы.md",
+    "Linux/Поиск файлов.md",
+    "MySQL/Вес таблиц БД.md",
+    "JavaScript/Преобразование ответа в DOM дерево.md",
+    "Vscode/Giga.md",
+    "MySQL/Резервное копирование БД.md",
+    "Laravel/Адрес для оповещения о недоставленных письмах.md",
+    "PHP/Enums/Поиск.md",
+    "gigacode-vscode-ext-1.6.454-ext.vsix",
+    "Git/Клонирование.md",
+    "Git/SSH ключ.md",
+    "Поиск работы/Советы.md",
+    "JavaScript/Event.md",
+    "Поиск работы",
+    "PHP/Enums/Значения.md",
+    "PHP/Enums/Фильтрация по ключу.md",
     "Работа/Типы цен.canvas",
     "Работа/Стоимость мини корзины.canvas",
     "Работа/Поиск.canvas",
     "Работа/Остатки.canvas",
-    "Laravel/Установка Laravel.md",
-    "Search.md",
-    "Сопроводительное письмо.md",
-    "Laravel/Дебаг ошибок валидации.md",
-    "Laravel/Валидация массива.md",
     "Soft",
-    "Laravel/Supervisor.md",
-    "Vscode/SFTP.md",
-    "Composer/Установка Composer.md",
     "Untitled",
-    "PHP/GoogleService.md",
-    "PHP/Проверка почты на корректность.md",
-    "PHP/Google API.md",
-    "Laravel/Адрес для оповещения о недоставленных письмах.md",
-    "Laravel/Артисан прогрессбар.md",
-    "Laravel/Eloquent/Connection.md",
-    "Laravel/Eloquent/Cursor.md",
-    "Laravel/Eloquent",
-    "Git/Push.md",
-    "Git/SSH ключ.md",
-    "Linux/Использование ресурсов.md",
-    "Linux/Изменить владельца.md",
-    "Laravel/Кеш.md",
-    "PHP/XML.md",
-    "Laravel/Scopes/Глобальный Scope.md",
-    "Laravel/Scopes/NotHidden.md",
-    "Laravel/Scopes/WhereManyToMany.md",
-    "Docker",
-    "PHP",
-    "Vscode",
-    "Tailwind",
-    "NodeJS & NPM",
-    "Сайты",
-    "Laravel/Enums",
     "1С/Создание заказа.canvas",
     "Test/Untitled.canvas"
   ]
