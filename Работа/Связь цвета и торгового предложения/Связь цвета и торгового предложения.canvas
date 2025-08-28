@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"b5824c0698c11493","type":"text","text":"Section\nAtlas L\n1136","x":-215,"y":-570,"width":250,"height":110},
+		{"id":"8c5ee4559d919497","type":"text","text":"IBlock\nЗначения свойств\n2","x":-639,"y":-546,"width":250,"height":106},
+		{"id":"31e5c596063e6dae","type":"text","text":"Section\nwg\n1137","x":120,"y":-546,"width":250,"height":137},
+		{"id":"c5ea97f87f05763b","type":"text","text":"Section (Папка с цветами)\nAtlas L Dargon Version 1,5\n2030","x":-88,"y":180,"width":250,"height":140},
+		{"id":"a43d3aba940fabad","type":"text","text":"Element\nYunmeng Blue\n2546364","x":200,"y":-231,"width":250,"height":84},
+		{"id":"be3966c7ae21e0f6","type":"text","text":"Element (ТП)\nDragon Version 1,5\n1963195","x":-440,"y":-360,"width":250,"height":114},
+		{"id":"753e0667e5889076","type":"text","text":"Property  (CAR_COLORS) \nПривязка к свойствам фото\n194","x":-889,"y":-20,"width":250,"height":142}
+	],
+	"edges":[
+		{"id":"6046c2fb850db358","fromNode":"b5824c0698c11493","fromSide":"left","toNode":"8c5ee4559d919497","toSide":"right"},
+		{"id":"bd06737d2e98363c","fromNode":"31e5c596063e6dae","fromSide":"left","toNode":"b5824c0698c11493","toSide":"right"},
+		{"id":"f18420e06e6d5d66","fromNode":"a43d3aba940fabad","fromSide":"top","toNode":"31e5c596063e6dae","toSide":"bottom","label":"b_iblock_element"},
+		{"id":"79b85ad16cc43c90","fromNode":"be3966c7ae21e0f6","fromSide":"bottom","toNode":"c5ea97f87f05763b","toSide":"top","label":"b_iblock_element_prop_s6\nb_iblock_section_element"},
+		{"id":"d428213de702a936","fromNode":"c5ea97f87f05763b","fromSide":"left","toNode":"753e0667e5889076","toSide":"right","label":"b_iblock_section_element"},
+		{"id":"d57be390a02cc39c","fromNode":"753e0667e5889076","fromSide":"right","toNode":"be3966c7ae21e0f6","toSide":"bottom","label":"b_iblock_section_element"},
+		{"id":"46b7530d13b32c48","fromNode":"c5ea97f87f05763b","fromSide":"top","toNode":"a43d3aba940fabad","toSide":"bottom","label":"Связь через потомка секции"}
+	]
+}

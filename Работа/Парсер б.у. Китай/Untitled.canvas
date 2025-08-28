@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"935886180a4cd951","x":-549,"y":-292,"width":250,"height":60,"type":"text","text":"Конструктор"},
+		{"id":"1de07f25dff03aba","x":-340,"y":-200,"width":250,"height":60,"type":"text","text":"Подключаем модули"},
+		{"id":"7348d6831ff2cc62","x":-340,"y":-120,"width":250,"height":60,"type":"text","text":"Устанавливаем переменные"},
+		{"id":"cf45566cd0317cc9","x":-340,"y":-40,"width":250,"height":60,"type":"text","text":"Инициализация реббита"},
+		{"id":"f0edca1df8fc0709","x":108,"y":-293,"width":250,"height":60,"type":"text","text":"lastHour"},
+		{"id":"0d2e253d57e66cdc","x":300,"y":-170,"width":250,"height":115,"type":"text","text":"Получаем разделы инфоблока \"Значения свойств\" и их элементы"}
+	],
+	"edges":[
+		{"id":"0ee53d9757826193","fromNode":"935886180a4cd951","fromSide":"bottom","toNode":"1de07f25dff03aba","toSide":"left"},
+		{"id":"be6189fbfcaddb4e","fromNode":"935886180a4cd951","fromSide":"bottom","toNode":"7348d6831ff2cc62","toSide":"left"},
+		{"id":"71cb17c20b03cc32","fromNode":"935886180a4cd951","fromSide":"bottom","toNode":"cf45566cd0317cc9","toSide":"left"},
+		{"id":"775df49c5888aa36","fromNode":"f0edca1df8fc0709","fromSide":"bottom","toNode":"0d2e253d57e66cdc","toSide":"left"}
+	]
+}
