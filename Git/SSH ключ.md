@@ -18,8 +18,6 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-
-
 ### Регистрация
 - [github.com](https://github.com/settings/keys)
 - New SSH key
