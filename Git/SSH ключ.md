@@ -30,3 +30,5 @@ cat ~/.ssh/id_ed25519.pub
 ```bash
 ssh -T git@github.com
 ```
+
+[[SSH генерация ключа]]
