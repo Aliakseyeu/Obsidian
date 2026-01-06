@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/Coalesce.md",
+                "file": "Linux/Переключение рабочего стола на обоих мониторах.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coalesce"
+              "title": "Переключение рабочего стола на обоих мониторах"
             }
           }
         ]
@@ -180,11 +180,13 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "38e9be9cb3e79d82",
+  "active": "2b5b3a6b470cab4e",
   "lastOpenFiles": [
-    "MySQL/Concat.md",
-    "MySQL/Coalesce.md",
+    "Linux/Перенаправление вывода.md",
+    "Linux/Переключение рабочего стола на обоих мониторах.md",
     "MySQL/Lpad.md",
+    "MySQL/Coalesce.md",
+    "MySQL/Concat.md",
     "MySQL/Транспонирование таблицы.md",
     "MySQL/Резервное копирование БД.md",
     "MySQL/Дата.md",
@@ -207,8 +209,6 @@
     "Git/Ветки.md",
     "Git/Gitlab/SSH.md",
     "AlpineJS/Плагин.md",
-    "PHPStorm/Поиск по маске.md",
-    "Регулярные выражения/Шпаргалка.md",
     "Git/Без названия.canvas",
     "YII/Relations/Без названия",
     "YII/Relations",
