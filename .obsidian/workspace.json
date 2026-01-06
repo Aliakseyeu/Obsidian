@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/Lpad.md",
+                "file": "MySQL/Coalesce.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lpad"
+              "title": "Coalesce"
             }
           }
         ]
@@ -182,12 +182,13 @@
   },
   "active": "38e9be9cb3e79d82",
   "lastOpenFiles": [
+    "MySQL/Concat.md",
     "MySQL/Coalesce.md",
+    "MySQL/Lpad.md",
     "MySQL/Транспонирование таблицы.md",
     "MySQL/Резервное копирование БД.md",
     "MySQL/Дата.md",
     "MySQL/Вес таблиц БД.md",
-    "MySQL/Concat.md",
     "MySQL/LAST_DAY.md",
     "MySQL/FIND_IN_SET.md",
     "MySQL/LOW_PRIORITY.md",
@@ -202,7 +203,6 @@
     "YII/Получение модели.md",
     "Git/Чужие коммиты в МРе.md",
     "MySQL/NULL.md",
-    "MySQL/Lpad.md",
     "MySQL/DUPLICATE KEY UPDATE.md",
     "Git/Ветки.md",
     "Git/Gitlab/SSH.md",
