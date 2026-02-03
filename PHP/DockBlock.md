@@ -14,3 +14,5 @@
 * @var array<int, array{totalSpendsSum:Money,totalBonusSum:Money, dto:ClientRewardsAccountDTO[]}>
 */
 ```
+
+[[Mixin]]

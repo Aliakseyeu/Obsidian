@@ -14,3 +14,5 @@ PhpStorm (и другие IDE) будут:
 - подсказывать методы `SummaryPartnerReward`
 - не ругаться на `$this->someMethodFromSummaryPartnerReward()`
 - корректно работать с автодополнением и навигацией
+
+[[DockBlock]]

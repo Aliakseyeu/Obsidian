@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHPStorm/Mixin.md",
+                "file": "PHPStorm/Read Excel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mixin"
+              "title": "Read Excel"
             }
           },
           {
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "профил",
+                "query": "Transaction",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -210,43 +210,43 @@
   },
   "active": "38e9be9cb3e79d82",
   "lastOpenFiles": [
-    "Laravel/Валидация/Валидация массива.md",
+    "YII/Получить поле.md",
+    "PHPStorm/Read Excel.md",
+    "PHP/Существование файла по урл.md",
+    "PHP/Файлы.md",
+    "PHP/XML.md",
+    "Laravel/Адрес для оповещения о недоставленных письмах.md",
+    "Docker/Контейнер MySQL.md",
+    "Laravel/Config.md",
+    "Laravel/Transactions/lockForUpdate.md",
+    "Laravel/Transactions/sharedLock.md",
+    "Laravel/Tests/DatabaseTransactions.md",
+    "Laravel/Transactions",
+    "Laravel/Tests/AssertInArray.md",
+    "PHPStorm/Открыть в браузере.md",
     "PHPStorm/Mixin.md",
+    "PHP/DockBlock.md",
+    "Laravel/Валидация/Валидация массива.md",
     "PHPStorm/Тесты/Настройка дебага.md",
     "YII/Запуск очереди.md",
     "Linux/Ubuntu/Рабочие столы.md",
-    "Laravel/Tests/DatabaseTransactions.md",
     "Laravel/Tests/RefreshDatabase.md",
     "PHPStorm/Поиск по маске.md",
     "Laravel/Tests",
-    "PHP/DockBlock.md",
     "Laravel/DB/Custom HasMany.md",
     "Laravel/DB/Relations",
     "YII/Запуск консольной команды из кода.md",
     "YII/DB/Debug queries.md",
     "YII/Queues/TTR.md",
     "Laravel/DB/Factories/Generic.md",
-    "Laravel/DB/Factories/Has.md",
-    "Laravel/DB/Factories/State.md",
-    "Laravel/DB/Factories/Configure.md",
-    "Laravel/DB/Upsert.md",
-    "Laravel/DB/Логирование запросов.md",
-    "Laravel/DB/HasManyThrough.md",
     "Laravel/DB/Factories",
-    "Git/Конфликты/Untitled.md",
-    "Git/Ветки.md",
     "Git/Конфликты",
-    "Docker/Сборка.md",
-    "Docker/Терминал.md",
-    "Docker/Подключение к xDebug.md",
-    "Docker/Контейнер MySQL.md",
     "Linux/Ubuntu",
     "YII/DB",
     "Git/Без названия.canvas",
     "YII/Relations/Без названия",
     "YII/Relations",
     "Git/Gitlab",
-    "Без названия",
     "Работа/Парсер б.у. Китай/Untitled.canvas",
     "Работа/Связь цвета и торгового предложения/Связь цвета и торгового предложения.canvas",
     "Работа/Типы цен.canvas",
