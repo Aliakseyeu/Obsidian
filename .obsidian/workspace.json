@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/rsync.md",
+                "file": "Linux/Текст.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rsync"
+              "title": "Текст"
             }
           }
         ],
@@ -211,8 +211,11 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "YII/Relations/Один ко многим - удаление.md",
+    "Linux/&.md",
+    "Linux/Текст.md",
+    "Linux/Ubuntu/Горячие клавиши.md",
     "Linux/rsync.md",
+    "YII/Relations/Один ко многим - удаление.md",
     "YII/Relations/Многие ко многим.md",
     "Git/SSH ключ.md",
     "Linux/SSH генерация ключа.md",
@@ -236,9 +239,6 @@
     "Laravel/Transactions/sharedLock.md",
     "Laravel/Transactions",
     "Laravel/Tests/AssertInArray.md",
-    "PHPStorm/Открыть в браузере.md",
-    "PHPStorm/Mixin.md",
-    "PHP/DockBlock.md",
     "Laravel/Tests",
     "Laravel/DB/Relations",
     "Laravel/DB/Factories",

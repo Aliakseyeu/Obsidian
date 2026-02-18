@@ -1,4 +1,4 @@
-
+ 15
 ```bash
 rsync -avz Загрузки/my_file.json my_username@ip_address:/var/www/storage/app/imports
 ```
