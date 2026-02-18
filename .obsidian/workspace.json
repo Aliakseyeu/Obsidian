@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YII/GroupBy.md",
+                "file": "PHP/ArrayFilter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GroupBy"
+              "title": "ArrayFilter"
             }
           },
           {
@@ -225,8 +225,9 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "MySQL/Multiple WhereIn.md",
     "YII/GroupBy.md",
+    "PHP/ArrayFilter.md",
+    "MySQL/Multiple WhereIn.md",
     "YII/DB/Multiple WhereIn.md",
     "Книги/Код, который умещается в голове/Untitled.md",
     "Linux/Текст.md",
@@ -253,7 +254,6 @@
     "PHP/Файлы.md",
     "PHP/XML.md",
     "Laravel/Адрес для оповещения о недоставленных письмах.md",
-    "Docker/Контейнер MySQL.md",
     "Laravel/Transactions",
     "Laravel/Tests",
     "Laravel/DB/Relations",
