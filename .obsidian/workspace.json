@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/ArrayFilter.md",
+                "file": "Docker/Memory limit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ArrayFilter"
+              "title": "Memory limit"
             }
           },
           {
@@ -225,8 +225,17 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "YII/GroupBy.md",
+    "Docker/Restart container.md",
+    "Docker/Время выполнения скрипта.md",
+    "Docker/Выполнить команду.md",
+    "Docker/Контейнер MySQL.md",
+    "Docker/Контейнеры.md",
+    "Docker/Сборка.md",
+    "Docker/Memory limit.md",
+    "Docker/Память для PHP запроса.md",
+    "Linux/Скрипт перезапуска процесса.md",
     "PHP/ArrayFilter.md",
+    "YII/GroupBy.md",
     "MySQL/Multiple WhereIn.md",
     "YII/DB/Multiple WhereIn.md",
     "Книги/Код, который умещается в голове/Untitled.md",
@@ -245,15 +254,6 @@
     "YII/Validation/Array.md",
     "YII/DB/BatchInsert.md",
     "YII/Validation",
-    "Laravel/DB/Factories/Every element.md",
-    "Laravel/Tests/FilterMultiple.md",
-    "Laravel/Parse JSON.md",
-    "YII/Read Excel.md",
-    "YII/Получить поле.md",
-    "PHP/Существование файла по урл.md",
-    "PHP/Файлы.md",
-    "PHP/XML.md",
-    "Laravel/Адрес для оповещения о недоставленных письмах.md",
     "Laravel/Transactions",
     "Laravel/Tests",
     "Laravel/DB/Relations",
