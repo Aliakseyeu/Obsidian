@@ -19,3 +19,5 @@ server {
 Перезапустить контейнер
 
 [[Restart container]] или пересборка
+
+[[Get current container settings]]
