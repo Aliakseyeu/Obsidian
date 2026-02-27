@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Книги/Код, который умещается в голове/Untitled.md",
+                "file": "YII/Migrations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Migrations"
             }
           },
           {
@@ -225,9 +225,11 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
+    "Docker/Время выполнения скрипта.md",
+    "YII/Migrations.md",
+    "Книги/Код, который умещается в голове/Untitled.md",
     "Docker/Memory limit.md",
     "Docker/Память для PHP запроса.md",
-    "Docker/Время выполнения скрипта.md",
     "Docker/Get current container settings.md",
     "Docker/Restart container.md",
     "Docker/Выполнить команду.md",
@@ -239,7 +241,6 @@
     "YII/GroupBy.md",
     "MySQL/Multiple WhereIn.md",
     "YII/DB/Multiple WhereIn.md",
-    "Книги/Код, который умещается в голове/Untitled.md",
     "Linux/Текст.md",
     "Книги/Код, который умещается в голове",
     "Книги",
@@ -252,7 +253,6 @@
     "Linux/SSH генерация ключа.md",
     "Laravel/Read Excel.md",
     "Laravel/Tests/DatabaseTransactions.md",
-    "YII/Validation/Array.md",
     "YII/Validation",
     "Laravel/Transactions",
     "Laravel/Tests",
