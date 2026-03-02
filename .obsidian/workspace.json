@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YII/Migrations.md",
+                "file": "Sentry/Profiling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Migrations"
+              "title": "Profiling"
             }
           },
           {
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Transaction",
+                "query": "Sentry",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,8 +225,13 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "Docker/Время выполнения скрипта.md",
+    "Sentry/Message.md",
+    "Sentry/Profiling.md",
+    "Laravel/DB/Логирование запросов.md",
+    "Sentry",
+    "Laravel/DB/Получить тип столбца.md",
     "YII/Migrations.md",
+    "Docker/Время выполнения скрипта.md",
     "Книги/Код, который умещается в голове/Untitled.md",
     "Docker/Memory limit.md",
     "Docker/Память для PHP запроса.md",
@@ -249,10 +254,6 @@
     "Linux/rsync.md",
     "YII/Relations/Один ко многим - удаление.md",
     "YII/Relations/Многие ко многим.md",
-    "Git/SSH ключ.md",
-    "Linux/SSH генерация ключа.md",
-    "Laravel/Read Excel.md",
-    "Laravel/Tests/DatabaseTransactions.md",
     "YII/Validation",
     "Laravel/Transactions",
     "Laravel/Tests",
@@ -260,7 +261,6 @@
     "Laravel/DB/Factories",
     "Git/Конфликты",
     "Linux/Ubuntu",
-    "YII/DB",
     "Git/Без названия.canvas",
     "Работа/Парсер б.у. Китай/Untitled.canvas",
     "Работа/Связь цвета и торгового предложения/Связь цвета и торгового предложения.canvas",
