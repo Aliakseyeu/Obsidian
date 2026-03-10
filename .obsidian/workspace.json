@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Поиск работы/Советы.md",
+                "file": "Docker/Comand without container.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Советы"
+              "title": "Comand without container"
             }
           },
           {
@@ -225,6 +225,11 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
+    "Laravel/DB/Factories/Every element.md",
+    "Docker/Comand without container.md",
+    "Laravel/DB/Factories/Configure.md",
+    "Laravel/Артисан прогрессбар.md",
+    "Поиск работы/Советы.md",
     "Sentry/Profiling.md",
     "Sentry/Message.md",
     "Laravel/DB/Логирование запросов.md",
@@ -249,11 +254,6 @@
     "Linux/Текст.md",
     "Книги/Код, который умещается в голове",
     "Книги",
-    "Linux/&.md",
-    "Linux/Ubuntu/Горячие клавиши.md",
-    "Linux/rsync.md",
-    "YII/Relations/Один ко многим - удаление.md",
-    "YII/Relations/Многие ко многим.md",
     "YII/Validation",
     "Laravel/Transactions",
     "Laravel/Tests",
