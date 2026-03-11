@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/json.md",
+                "file": "MySQL/REGEXP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "json"
+              "title": "REGEXP"
             }
           },
           {
@@ -225,8 +225,9 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "Laravel/Parse JSON.md",
     "PHP/json.md",
+    "MySQL/REGEXP.md",
+    "Laravel/Parse JSON.md",
     "NodeJS & NPM/package.json.md",
     "Laravel/DB/Factories/Configure.md",
     "PHP/Строки.md",
@@ -251,7 +252,6 @@
     "Docker/Контейнеры.md",
     "Docker/Сборка.md",
     "Linux/Скрипт перезапуска процесса.md",
-    "PHP/ArrayFilter.md",
     "Книги/Код, который умещается в голове",
     "Книги",
     "YII/Validation",
