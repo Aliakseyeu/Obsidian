@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YII/Relations/joinWith.md",
+                "file": "MySQL/Дата.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "joinWith"
+              "title": "Дата"
             }
           },
           {
@@ -225,8 +225,8 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "YII/Queues/TTR.md",
     "YII/Relations/joinWith.md",
+    "YII/Queues/TTR.md",
     "YII/Relations/Один ко многим - удаление.md",
     "YII/Relations/Один ко многим - добавление.md",
     "YII/Relations/Многие ко многим.md",
