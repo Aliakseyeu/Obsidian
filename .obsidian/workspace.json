@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/REGEXP.md",
+                "file": "YII/Relations/joinWith.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REGEXP"
+              "title": "joinWith"
             }
           },
           {
@@ -225,8 +225,13 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "PHP/json.md",
+    "YII/Queues/TTR.md",
+    "YII/Relations/joinWith.md",
+    "YII/Relations/Один ко многим - удаление.md",
+    "YII/Relations/Один ко многим - добавление.md",
+    "YII/Relations/Многие ко многим.md",
     "MySQL/REGEXP.md",
+    "PHP/json.md",
     "Laravel/Parse JSON.md",
     "NodeJS & NPM/package.json.md",
     "Laravel/DB/Factories/Configure.md",
@@ -247,11 +252,6 @@
     "Docker/Memory limit.md",
     "Docker/Память для PHP запроса.md",
     "Docker/Get current container settings.md",
-    "Docker/Restart container.md",
-    "Docker/Выполнить команду.md",
-    "Docker/Контейнеры.md",
-    "Docker/Сборка.md",
-    "Linux/Скрипт перезапуска процесса.md",
     "Книги/Код, который умещается в голове",
     "Книги",
     "YII/Validation",
