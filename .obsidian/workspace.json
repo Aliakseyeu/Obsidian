@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YII/Response.md",
+                "file": "Laravel/Carbon/Date.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Response"
+              "title": "Date"
             }
           },
           {
@@ -225,8 +225,12 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
-    "Docker/Время выполнения скрипта.md",
+    "Laravel/Carbon",
+    "NodeJS & NPM/Limit of watchers.md",
+    "Laravel/Carbon/Date.md",
+    "JavaScript/Object Read.md",
     "YII/Response.md",
+    "Docker/Время выполнения скрипта.md",
     "MySQL/Дата.md",
     "YII/Relations/joinWith.md",
     "YII/Queues/TTR.md",
@@ -248,10 +252,6 @@
     "Sentry/Message.md",
     "Laravel/DB/Логирование запросов.md",
     "Sentry",
-    "Laravel/DB/Получить тип столбца.md",
-    "YII/Migrations.md",
-    "Книги/Код, который умещается в голове/Untitled.md",
-    "Docker/Memory limit.md",
     "Книги/Код, который умещается в голове",
     "Книги",
     "YII/Validation",
