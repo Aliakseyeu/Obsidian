@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Carbon/Date.md",
+                "file": "Laravel/Валидация/Redirect 404.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Date"
+              "title": "Redirect 404"
             }
           },
           {
@@ -225,9 +225,10 @@
   },
   "active": "8f40cd7e59596d54",
   "lastOpenFiles": [
+    "Laravel/Carbon/Date.md",
+    "Laravel/Валидация/Redirect 404.md",
     "Laravel/Carbon",
     "NodeJS & NPM/Limit of watchers.md",
-    "Laravel/Carbon/Date.md",
     "JavaScript/Object Read.md",
     "YII/Response.md",
     "Docker/Время выполнения скрипта.md",
@@ -260,7 +261,6 @@
     "Laravel/DB/Relations",
     "Laravel/DB/Factories",
     "Git/Конфликты",
-    "Linux/Ubuntu",
     "Git/Без названия.canvas",
     "Работа/Парсер б.у. Китай/Untitled.canvas",
     "Работа/Связь цвета и торгового предложения/Связь цвета и торгового предложения.canvas",
