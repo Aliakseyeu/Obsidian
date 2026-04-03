@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/SSH генерация ключа.md",
+                "file": "YII/Relations/Многие ко многим.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH генерация ключа"
+              "title": "Многие ко многим"
             }
           }
         ],
@@ -197,8 +197,9 @@
   },
   "active": "a1378d0b73bd5e28",
   "lastOpenFiles": [
-    "Search.md",
+    "Linux/SSH генерация ключа.md",
     "YII/Relations/Многие ко многим.md",
+    "Search.md",
     "PHP/ArrayFilter.md",
     "YII/GroupBy.md",
     "YII/Read Excel.md",
@@ -222,7 +223,6 @@
     "Sentry/Profiling.md",
     "Laravel/DB/Factories/Every element.md",
     "Laravel/DB/Factories/Configure.md",
-    "Laravel/Валидация/Redirect 404.md",
     "Laravel/Carbon",
     "Sentry",
     "Книги/Код, который умещается в голове",
