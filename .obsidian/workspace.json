@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/SSH ключ.md",
+                "file": "PHP Stan/Impure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH ключ"
+              "title": "Impure"
             }
           }
         ]
@@ -182,6 +182,12 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
+    "PHP/Pure & Impure.md",
+    "PHP Stan/Impure.md",
+    "PHP Stan/PHP Stan.md",
+    "PHPStorm/Поиск по маске.md",
+    "PHP Stan",
+    "Git/SSH ключ.md",
     "Git/Reset.md",
     "Docker/Comand without container.md",
     "Docker/Выполнить команду.md",
@@ -203,11 +209,6 @@
     "Посмотреть.md",
     "MySQL/Дата.md",
     "2026-04-02.md",
-    "MySQL/LAST_DAY.md",
-    "NodeJS & NPM/Limit of watchers.md",
-    "Laravel/DB/Relations/MorphToMany.md",
-    "Docker/Контейнер MySQL.md",
-    "Docker/Подключение к БД.md",
     "Laravel/Carbon",
     "Sentry",
     "Книги/Код, который умещается в голове",
@@ -217,7 +218,6 @@
     "Laravel/Tests",
     "Laravel/DB/Relations",
     "Laravel/DB/Factories",
-    "Git/Конфликты",
     "Git/Без названия.canvas",
     "Работа/Парсер б.у. Китай/Untitled.canvas",
     "Работа/Связь цвета и торгового предложения/Связь цвета и торгового предложения.canvas",
