@@ -34,3 +34,18 @@ GROUP_CONCAT(DISTINCT status)
 ```sql
 GROUP_CONCAT(name ORDER BY name ASC)
 ```
+
+---
+
+```sql
+SELECT id,
+       CONCAT(roles.id, ' - ', roles.name) AS role,
+       GROUP_CONCAT(CONCAT(permissions.id, ' - ', permissions.name) SEPARATOR ', ') AS permissions
+FROM users
+LEFT JOIN user_has_roles ON user_has_roles.user_id = users.id
+LEFT JOIN roles ON roles.id = user_has_roles.role_id
+LEFT JOIN role_has_permissions ON role_has_permissions.role_id = roles.id
+LEFT JOIN permissions ON permissions.id = role_has_permissions.permission_id
+WHERE roles.name IN ('viewer', 'exporter', 'manager')
+GROUP BY id
+```
