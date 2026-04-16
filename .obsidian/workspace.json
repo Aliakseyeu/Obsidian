@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/Concat.md",
+                "file": "MySQL/NULL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concat"
+              "title": "NULL"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
+    "MySQL/Concat.md",
     "Laravel/Tests/WithoutMiddleware.md",
     "Laravel/Tests/User.md",
     "YII/Download From S3.md",
@@ -208,7 +209,6 @@
     "MySQL/Coalesce.md",
     "YII/DB/Multiple WhereIn.md",
     "MySQL/Multiple WhereIn.md",
-    "Программы.md",
     "Laravel/Carbon",
     "Sentry",
     "Книги/Код, который умещается в голове",
