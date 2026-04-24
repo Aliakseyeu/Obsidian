@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Cron.md",
+                "file": "Git/Откат.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cron"
+              "title": "Откат"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cron",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,11 +182,17 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
+    "Laravel/Tests/User.md",
+    "PHP/Google API.md",
+    "PHP/GoogleService.md",
+    "PHP/Строки.md",
+    "Linux/Текст.md",
+    "PHPStorm/Сброс триала.md",
+    "Linux/Cron.md",
     "Git/Откат.md",
     "MySQL/NULL.md",
     "MySQL/Concat.md",
     "Laravel/Tests/WithoutMiddleware.md",
-    "Laravel/Tests/User.md",
     "YII/Download From S3.md",
     "PHP Stan/Impure.md",
     "PHP/Pure & Impure.md",
@@ -204,12 +209,6 @@
     "YII/Relations/Один ко многим - удаление.md",
     "PHP/DockBlock.md",
     "YII/Relations/Многие ко многим.md",
-    "Linux/SSH генерация ключа.md",
-    "Search.md",
-    "YII/GroupBy.md",
-    "YII/Read Excel.md",
-    "YII/Response.md",
-    "MySQL/Coalesce.md",
     "Laravel/Carbon",
     "Sentry",
     "Книги/Код, который умещается в голове",
