@@ -182,8 +182,9 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
-    "MySQL/IGNORE.md",
+    "MySQL/VALUES.md",
     "MySQL/DUPLICATE KEY UPDATE.md",
+    "MySQL/IGNORE.md",
     "MySQL/LOW_PRIORITY.md",
     "Git/Откат.md",
     "Laravel/Tests/User.md",
@@ -208,7 +209,6 @@
     "Docker/Выполнить команду.md",
     "YII/DB/BatchInsert.md",
     "YII/DB/Debug queries.md",
-    "PHP/ArrayFilter.md",
     "Laravel/Carbon",
     "Sentry",
     "Книги/Код, который умещается в голове",

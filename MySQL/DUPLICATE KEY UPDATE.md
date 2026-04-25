@@ -11,7 +11,7 @@ INSERT LOW_PRIORITY IGNORE INTO table
 )
 VALUES
 (
-  '192.168.1.100', 'ipv4', 1, 0, 0, NOW()
+  '192.168.1.100', 'ipv4', 1, 1, 0, NOW()
 )
 ON DUPLICATE KEY UPDATE
   refs = refs   + 1,
@@ -37,11 +37,11 @@ ON DUPLICATE KEY UPDATE
 
 ### Пример:
 
-Если в таблице уже есть строка: refs = 5 и proxy = 2`
+Если в таблице уже есть строка: refs = 1 и proxy = 1
 
-и ты вставляешь: refs = 1 и proxy = 3
+и ты вставляешь: refs = 1 и proxy = 1
 
-Тогда после запроса будет: refs = 6 и proxy = 5
+Тогда после запроса будет: refs = 2 и proxy = 2
 
 Потому что: 
 
