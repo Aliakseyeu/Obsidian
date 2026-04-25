@@ -11,7 +11,7 @@ INSERT LOW_PRIORITY IGNORE INTO table
 )
 VALUES
 (
-  '%s', '%s', 1, %d, %d,NOW()
+  '192.168.1.100', 'ipv4', 1, 0, 0, NOW()
 )
 ON DUPLICATE KEY UPDATE
   refs = refs   + 1,

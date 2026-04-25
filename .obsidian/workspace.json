@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Откат.md",
+                "file": "MySQL/DUPLICATE KEY UPDATE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Откат"
+              "title": "DUPLICATE KEY UPDATE"
             }
           }
         ]
@@ -182,6 +182,10 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
+    "MySQL/IGNORE.md",
+    "MySQL/DUPLICATE KEY UPDATE.md",
+    "MySQL/LOW_PRIORITY.md",
+    "Git/Откат.md",
     "Laravel/Tests/User.md",
     "PHP/Google API.md",
     "PHP/GoogleService.md",
@@ -189,7 +193,6 @@
     "Linux/Текст.md",
     "PHPStorm/Сброс триала.md",
     "Linux/Cron.md",
-    "Git/Откат.md",
     "MySQL/NULL.md",
     "MySQL/Concat.md",
     "Laravel/Tests/WithoutMiddleware.md",
@@ -206,9 +209,6 @@
     "YII/DB/BatchInsert.md",
     "YII/DB/Debug queries.md",
     "PHP/ArrayFilter.md",
-    "YII/Relations/Один ко многим - удаление.md",
-    "PHP/DockBlock.md",
-    "YII/Relations/Многие ко многим.md",
     "Laravel/Carbon",
     "Sentry",
     "Книги/Код, который умещается в голове",
