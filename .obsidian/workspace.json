@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Gitlab/Revert.md",
+                "file": "MySQL/SUBSTRING_INDEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Revert"
+              "title": "SUBSTRING_INDEX"
             }
           },
           {
@@ -196,8 +196,9 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
-    "Git/Перенос изменений в другую ветку.md",
     "Git/Gitlab/Revert.md",
+    "MySQL/SUBSTRING_INDEX.md",
+    "Git/Перенос изменений в другую ветку.md",
     "Git/Откат.md",
     "Git/Конфликты/Untitled.md",
     "Linux/Текст.md",
@@ -221,7 +222,6 @@
     "Linux/Cron.md",
     "MySQL/NULL.md",
     "MySQL/Concat.md",
-    "Laravel/Tests/WithoutMiddleware.md",
     "PHP Stan",
     "Laravel/Carbon",
     "Sentry",
