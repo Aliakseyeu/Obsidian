@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/SUBSTRING_INDEX.md",
+                "file": "PHPStorm/Cherry-pick.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUBSTRING_INDEX"
+              "title": "Cherry-pick"
             }
           },
           {
@@ -196,8 +196,13 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
-    "Git/Gitlab/Revert.md",
+    "Linux/Cron.md",
+    "PHPStorm/Cherry-pick.md",
+    "Docker/Контейнер MySQL.md",
+    "Docker/Подключение к БД.md",
+    "MySQL/Coalesce.md",
     "MySQL/SUBSTRING_INDEX.md",
+    "Git/Gitlab/Revert.md",
     "Git/Перенос изменений в другую ветку.md",
     "Git/Откат.md",
     "Git/Конфликты/Untitled.md",
@@ -217,11 +222,6 @@
     "Laravel/Tests/User.md",
     "PHP/Google API.md",
     "PHP/GoogleService.md",
-    "PHP/Строки.md",
-    "PHPStorm/Сброс триала.md",
-    "Linux/Cron.md",
-    "MySQL/NULL.md",
-    "MySQL/Concat.md",
     "PHP Stan",
     "Laravel/Carbon",
     "Sentry",
