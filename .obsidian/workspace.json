@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHPStorm/Cherry-pick.md",
+                "file": "Git/Empty Commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cherry-pick"
+              "title": "Empty Commit"
             }
           },
           {
@@ -196,8 +196,10 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
-    "Linux/Cron.md",
+    "Laravel/Валидация/Redirect 404.md",
+    "Git/Empty Commit.md",
     "PHPStorm/Cherry-pick.md",
+    "Linux/Cron.md",
     "Docker/Контейнер MySQL.md",
     "Docker/Подключение к БД.md",
     "MySQL/Coalesce.md",
@@ -220,8 +222,6 @@
     "MySQL/VALUES.md",
     "MySQL/IGNORE.md",
     "Laravel/Tests/User.md",
-    "PHP/Google API.md",
-    "PHP/GoogleService.md",
     "PHP Stan",
     "Laravel/Carbon",
     "Sentry",
