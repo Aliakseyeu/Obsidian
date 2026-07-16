@@ -49,3 +49,25 @@ LEFT JOIN permissions ON permissions.id = role_has_permissions.permission_id
 WHERE roles.name IN ('viewer', 'exporter', 'manager')
 GROUP BY id
 ```
+
+---
+
+### **Сортировка при склейке**
+
+```
+SELECT 
+    GROUP_CONCAT(
+        CONCAT(title, ' от ', date) -- 1. Склеиваем поля одной строки
+        ORDER BY date ASC           -- 2. Сортируем строки перед склейкой
+        SEPARATOR '\n'              -- 3. Указываем разделитель между строками
+    ) as documents_list
+FROM documents;
+```
+
+Результат выполнения:
+
+```
+Договор от 2026-01-15
+Спецификация от 2026-03-20
+Доп. соглашение №1 от 2026-05-10
+```
