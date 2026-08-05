@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Search.md",
+                "file": "Laravel/Ide-Helper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Search"
+              "title": "Ide-Helper"
             }
           },
           {
@@ -55,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -196,8 +198,10 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
-    "YII/Tests/Transaction.md",
+    "YII/DB/Debug queries.md",
+    "Laravel/Ide-Helper.md",
     "Git/Search.md",
+    "YII/Tests/Transaction.md",
     "MySQL/IF.md",
     "YII/Tests",
     "Docker/Контейнер MySQL.md",
@@ -220,9 +224,7 @@
     "Laravel/Tests/Как писать тест.md",
     "MySQL/Дата.md",
     "YII/DB/BatchInsert.md",
-    "YII/DB/Debug queries.md",
     "YII/Queues/TTR.md",
-    "YII/Запуск консольной команды из кода.md",
     "PHP Stan",
     "Laravel/Carbon",
     "Sentry",
