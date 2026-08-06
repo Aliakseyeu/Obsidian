@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Артисан прогрессбар.md",
+                "file": "Laravel/DB/ForceIndex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Артисан прогрессбар"
+              "title": "ForceIndex"
             }
           },
           {
@@ -198,6 +198,8 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
+    "Laravel/Артисан прогрессбар.md",
+    "Laravel/DB/ForceIndex.md",
     "Laravel/DB/Migrations/Foreign Key.md",
     "MySQL/CASE.md",
     "Laravel/DB/Migrations",
@@ -224,8 +226,6 @@
     "Git/Reset.md",
     "Git/Перенос изменений в другую ветку.md",
     "Git/Gitlab/Revert.md",
-    "PHPStorm/Сброс триала.md",
-    "Laravel/Tests/Как писать тест.md",
     "PHP Stan",
     "Laravel/Carbon",
     "Sentry",
