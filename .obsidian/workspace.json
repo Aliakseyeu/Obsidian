@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/DB/ForceIndex.md",
+                "file": "Книги/Что почитать/Опасные земли.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ForceIndex"
+              "title": "Опасные земли"
             }
           },
           {
@@ -198,8 +198,14 @@
   },
   "active": "a0d2bb1ba579064f",
   "lastOpenFiles": [
-    "Laravel/Артисан прогрессбар.md",
+    "Книги/Что почитать",
+    "Авторы/Клим Жуков.md",
+    "Книги/Что почитать/Опасные земли.md",
+    "YII/Запуск очереди.md",
+    "Авторы",
+    "YII/Queues/TTR.md",
     "Laravel/DB/ForceIndex.md",
+    "Laravel/Артисан прогрессбар.md",
     "Laravel/DB/Migrations/Foreign Key.md",
     "MySQL/CASE.md",
     "Laravel/DB/Migrations",
@@ -221,11 +227,6 @@
     "MySQL/Concat.md",
     "Git/Откат.md",
     "Git/gitignore.md",
-    "Git/Fetch.md",
-    "Git/Push.md",
-    "Git/Reset.md",
-    "Git/Перенос изменений в другую ветку.md",
-    "Git/Gitlab/Revert.md",
     "PHP Stan",
     "Laravel/Carbon",
     "Sentry",
@@ -233,7 +234,6 @@
     "Книги",
     "YII/Validation",
     "Laravel/Transactions",
-    "Laravel/Tests",
     "Git/Без названия.canvas",
     "Работа/Парсер б.у. Китай/Untitled.canvas",
     "Работа/Связь цвета и торгового предложения/Связь цвета и торгового предложения.canvas",
