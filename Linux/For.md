@@ -6,3 +6,5 @@ for f in *.zip; do
     unzip -p "$f" | grep --with-filename "строка"
 done
 ```
+
+[[Grep]]
