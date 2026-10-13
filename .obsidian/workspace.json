@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Перенос изменений в другую ветку.md",
+                "file": "Git/CherryPick.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Перенос изменений в другую ветку"
+              "title": "CherryPick"
             }
           }
         ]
@@ -184,6 +184,10 @@
   },
   "active": "98814e5e9bdbbb1c",
   "lastOpenFiles": [
+    "Git/Перенос изменений в другую ветку.md",
+    "Git/CherryPick.md",
+    "Git/Stash.md",
+    "YII/DB/CreateModel.md",
     "Git/gitignore.md",
     "Git/Git Clone.md",
     "Git/Change Link To Repository.md",
@@ -205,12 +209,8 @@
     "YII/DB/Multiple WhereIn.md",
     "YII/DB/Migrations.md",
     "YII/DB/Find Model.md",
-    "YII/DB/CreateModel.md",
     "YII/DB/BatchInsert.md",
     "YII/DB/DB.md",
-    "YII/Yii.md",
-    "YII/Response.md",
-    "YII/Array/ArrayHelper.md",
     "Linux/Flags",
     "Git/Откат фичи из мастера.drawio",
     "Откат фичи из мастера.drawio",
