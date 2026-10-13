@@ -1,3 +1,4 @@
+[[Sentry]]
 
 ```php
 Sentry::startProfiling('name');

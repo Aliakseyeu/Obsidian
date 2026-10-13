@@ -1,3 +1,5 @@
+[[DB]]
+[[Yii]]
 
 config/web.php
 

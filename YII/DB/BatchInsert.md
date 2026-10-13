@@ -1,3 +1,6 @@
+[[DB]]
+[[Yii]]
+[[CreateModel]]
 
 ```php
 Yii::$app->db->createCommand()  

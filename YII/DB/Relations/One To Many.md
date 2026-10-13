@@ -1,4 +1,19 @@
 
+Добавление
+
+```php
+foreach ($data as $value) {  
+    $relatedModel = new RelatedModel([  
+        'value' => $value,  
+    ]);  
+    $model->link('relation', $relatedModel);  
+}
+```
+
+---
+
+Удаление
+
 ```php
 $model->unlinkAll('relation', true);
 ```
@@ -17,4 +32,3 @@ $campaigns = $account->getCampaigns()
 foreach ($campaigns as $campaign) {
     $account->unlink('campaigns', $campaign, true);
 }
-```

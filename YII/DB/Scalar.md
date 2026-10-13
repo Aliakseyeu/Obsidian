@@ -1,3 +1,6 @@
+[[DB]]
+[[Yii]]
+[[Find Model]]
 
 ```php
 Model::find()  

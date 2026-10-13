@@ -1,3 +1,4 @@
+[[Git]]
 
 ```bash
 git commit --allow-empty -m "Ваше сообщение коммита"

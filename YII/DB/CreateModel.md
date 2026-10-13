@@ -1,3 +1,6 @@
+[[DB]]
+[[Yii]]
+[[BatchInsert]]
 
 ```php
 $user = new User();

@@ -1,3 +1,4 @@
+[[Sentry]]
 
 ```php
 $scope = new CustomSentryScope('ecex', []);  

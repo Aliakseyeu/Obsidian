@@ -14,4 +14,4 @@ php yii queue/listen
 php yii queue/info
 ```
 
-[[Запуск консольной команды из кода]]
+[[Run Console Command]]
