@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Откат.md",
+                "file": "YII/KeyBy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Откат"
+              "title": "KeyBy"
             }
           }
         ]
@@ -182,8 +182,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1378d0b73bd5e28",
+  "active": "98814e5e9bdbbb1c",
   "lastOpenFiles": [
+    "YII/GroupBy.md",
+    "YII/KeyBy.md",
+    "Linux/Поиск файлов.md",
+    "Linux/Flags/E.md",
+    "Linux/Flags/i.md",
+    "Linux/Flags",
+    "Linux/Подсветка вхождений.md",
+    "Linux/Grep.md",
+    "Linux/bash_profile.md",
+    "Linux/Bash.md",
+    "Git/Откат.md",
     "Git/Откат фичи из мастера.drawio",
     "Откат фичи из мастера.drawio",
     "Работа/Обоснование обновления оборудования.md",
@@ -197,24 +208,15 @@
     "Linux/Pipes и Операторы перенаправления вывода.md",
     "Linux/nohup.md",
     "Linux/For.md",
-    "Linux/Grep.md",
     "Linux/Скрипт перезапуска процесса.md",
     "Linux/If.md",
-    "Linux/Bash.md",
     "Linux/Процессы.md",
     "Linux/Chown.md",
     "Linux/Cron.md",
     "Laravel/Queue.md",
-    "Linux/Поиск файлов.md",
-    "Linux/Подсветка вхождений.md",
     "Linux/Перенаправление вывода.md",
     "Linux/&.md",
     "Linux/Копирование файлов.md",
-    "Linux/Использование ресурсов.md",
-    "Linux/Linux.md",
-    "Регулярные выражения/Шпаргалка.md",
-    "PHPStorm/Поиск по маске.md",
-    "PHPStorm/Сброс триала.md",
     "Книги/Что почитать",
     "Авторы",
     "Laravel/DB/Migrations",
@@ -222,8 +224,6 @@
     "PHP Stan",
     "Laravel/Carbon",
     "Sentry",
-    "Книги/Код, который умещается в голове",
-    "Книги",
     "Git/Без названия.canvas",
     "Работа/Парсер б.у. Китай/Untitled.canvas",
     "Работа/Остатки.canvas",
