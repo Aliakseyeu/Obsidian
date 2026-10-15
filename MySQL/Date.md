@@ -1,3 +1,5 @@
+[[MySql]]
+
 ```sql
 DATE_FORMAT(DATE_SUB(NOW(),INTERVAL 1 MONTH),'%Y-%m-20')
 ```
