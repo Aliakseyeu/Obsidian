@@ -1,4 +1,5 @@
 [[MySql]]
+[[MySQL/Date|Date]]
 
 ```mysql
 AVG(TIMESTAMPDIFF(YEAR, user_birthday, CURDATE()))

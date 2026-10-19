@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```sql
 INSERT INTO counters (name, value)
@@ -16,7 +17,13 @@ value = value + VALUES(value);
 
 Современный аналог:
 
-`proxy + new.proxy`
+```mysql
+INSERT INTO users (id, name, login_count)
+VALUES (1, 'John', 1) AS new_user
+ON DUPLICATE KEY UPDATE
+    name = new_user.name,
+    login_count = login_count + new_user.login_count;
+```
 
 ---
 

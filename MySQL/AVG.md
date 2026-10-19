@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```mysql
 AVG(TIMESTAMPDIFF(YEAR, user_birthday, CURDATE()))
