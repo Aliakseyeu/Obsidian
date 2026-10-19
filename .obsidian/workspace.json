@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/Date.md",
+                "file": "MySQL/TRIM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Date"
+              "title": "TRIM"
             }
           }
         ]
@@ -184,8 +184,24 @@
   },
   "active": "98814e5e9bdbbb1c",
   "lastOpenFiles": [
+    "MySQL/TIMESTAMPDIFF.md",
+    "MySQL/Без названия.md",
+    "MySQL/SUBSTRING_INDEX.md",
+    "MySQL/SQL_CALC_FOUND_ROWS.md",
+    "MySQL/REGEXP.md",
+    "MySQL/ORDER BY.md",
+    "MySQL/LPAD.md",
+    "MySQL/NULL.md",
     "MySQL/MySql.md",
+    "YII/DB/Multiple WhereIn.md",
+    "MySQL/Multiple WhereIn.md",
+    "MySQL/LOW_PRIORITY.md",
     "MySQL/Date.md",
+    "MySQL/LAST_DAY.md",
+    "MySQL/IGNORE.md",
+    "MySQL/IF.md",
+    "MySQL/FIND_IN_SET.md",
+    "MySQL/DUPLICATE KEY UPDATE.md",
     "MySQL/Вес таблиц БД.md",
     "YII/DB/CreateModel.md",
     "Linux/Text.md",
@@ -194,22 +210,6 @@
     "Git/CherryPick.md",
     "Git/Перенос изменений в другую ветку.md",
     "Git/Stash.md",
-    "Git/Copy Files.md",
-    "Git/gitignore.md",
-    "Git/Git Clone.md",
-    "Git/Change Link To Repository.md",
-    "Git/Push.md",
-    "Git/Fetch.md",
-    "Git/Empty Commit.md",
-    "Git/Branch.md",
-    "Git/Git.md",
-    "Git/Conflicts/Conflict.md",
-    "Sentry/Profiling.md",
-    "Sentry/Message.md",
-    "Sentry/Sentry.md",
-    "YII/Run Console Command.md",
-    "YII/Download From S3.md",
-    "YII/Read Excel.md",
     "YII/Array",
     "Linux/Flags",
     "Git/Откат фичи из мастера.drawio",

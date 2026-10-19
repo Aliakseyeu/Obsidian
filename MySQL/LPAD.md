@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```mysql
 LPAD(COALESCE(c3.default_sort, ''), 10, '0')
@@ -31,8 +32,13 @@ LPAD(COALESCE(c3.default_sort, ''), 10, '0')
 
 Если поле `default_sort` — **числовое (`INT`)** и ты **не склеиваешь** значения, а сортируешь отдельно:
 
-`->orderBy('c3.default_sort') ->orderBy('c2.default_sort') ->orderBy('c1.default_sort')`
+```
+->orderBy('c3.default_sort')
+->orderBy('c2.default_sort')
+->orderBy('c1.default_sort')
+```
 
 — тогда `LPAD()` не нужен вовсе.
 
 [[Coalesce]]
+[[ORDER BY]]

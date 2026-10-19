@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```sql
 INSERT LOW_PRIORITY IGNORE INTO table

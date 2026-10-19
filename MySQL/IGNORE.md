@@ -1,4 +1,4 @@
-
+[[MySql]]
 
 ```sql
 INSERT IGNORE INTO table
@@ -7,7 +7,7 @@ INSERT IGNORE INTO table
 Что делает IGNORE? Он:
 
 - подавляет ошибки (warnings вместо errors)
-- **игнорирует нарушения**, кроме duplicate ke    
+- **игнорирует нарушения**, кроме duplicate key    
 - может скрыть реальные проблемы ❗    
 
 ⚠️ В связке с `ON DUPLICATE KEY UPDATE`:

@@ -1,3 +1,5 @@
+[[MySql]]
+
 ```sql
 IF(
 	column_for_check IS NOT NULL, 

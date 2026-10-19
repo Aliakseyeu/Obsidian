@@ -1,3 +1,5 @@
+[[MySql]]
+[[MySQL/Date|Date]]
 
 ```sql
 LAST_DAY('2025-02-10')

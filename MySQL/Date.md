@@ -13,3 +13,5 @@ WHERE date = CURRENT_DATE;
 WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY;
 WHERE date = DATE(NOW());
 ```
+
+[[LAST_DAY]]

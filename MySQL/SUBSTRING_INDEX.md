@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```mysql
 SUBSTRING_INDEX(column, '|', 1

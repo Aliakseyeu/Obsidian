@@ -1,10 +1,15 @@
+[[[MySql]]]
 
 ```sql
 TRIM(LEADING 'www.' FROM column)
 ```
 
-съесть слева все w и . без разбора
+- `LEADING` — удалять только **слева** (в начале).
+- `'www.'` — что именно удалять (литеральная подстрока, не regex).
+- `FROM column` — из какого значения.
 
-Это как: «удаляй любые `w` и точки в начале строки, пока они идут подряд»
-
-А **не**: «удали строку `www.`»
+```mysql
+TRIM(LEADING 'www.' FROM 'www.site.by')      -- 'site.by'
+TRIM(LEADING 'www.' FROM 'site.by')          -- 'site.by' (без изменений)
+TRIM(LEADING 'www.' FROM 'www.www.site.by')  -- 'site.by' (удалит все ведущие 'www.')
+```

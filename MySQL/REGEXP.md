@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```sql
 SELECT column
