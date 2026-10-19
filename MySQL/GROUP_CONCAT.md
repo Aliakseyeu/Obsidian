@@ -40,7 +40,7 @@ GROUP_CONCAT(r.name ORDER BY r.name ASC SEPARATOR ', ')
 
 ---
 
-Можно использовать дополнительную склейку
+Можно использовать дополнительную склейку [[Concat]]
 
 ```mysql
 SELECT 
