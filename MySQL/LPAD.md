@@ -40,5 +40,5 @@ LPAD(COALESCE(c3.default_sort, ''), 10, '0')
 
 — тогда `LPAD()` не нужен вовсе.
 
-[[Coalesce]]
+[[COALESCE]]
 [[ORDER BY]]
