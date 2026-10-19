@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2b0f636ee0e4c6f4",
+        "id": "93aba31f61d31e2a",
         "type": "tabs",
         "children": [
           {
-            "id": "98814e5e9bdbbb1c",
+            "id": "dde2ad248172790e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/AVG.md",
+                "file": "MySQL/GROUP_CONCAT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AVG"
+              "title": "GROUP_CONCAT"
             }
           }
         ]
@@ -182,14 +182,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98814e5e9bdbbb1c",
+  "active": "dde2ad248172790e",
   "lastOpenFiles": [
+    "MySQL/DISTINCT.md",
+    "MySQL/GROUP_CONCAT.md",
+    "MySQL/Без названия.md",
+    "MySQL/Concat.md",
+    "MySQL/Coalesce.md",
+    "MySQL/CASE.md",
+    "MySQL/AVG.md",
     "MySQL/Транспонирование таблицы.md",
+    "MySQL/MAX.md",
     "MySQL/Резервное копирование БД.md",
     "MySQL/Вес таблиц БД.md",
     "Docker/Docker.md",
     "MySQL/TRIM.md",
-    "MySQL/Без названия.md",
     "MySQL/VALUES.md",
     "MySQL/TIMESTAMPDIFF.md",
     "MySQL/SUBSTRING_INDEX.md",
@@ -203,13 +210,6 @@
     "MySQL/MySql.md",
     "YII/DB/Multiple WhereIn.md",
     "MySQL/Multiple WhereIn.md",
-    "MySQL/LOW_PRIORITY.md",
-    "MySQL/Date.md",
-    "MySQL/LAST_DAY.md",
-    "MySQL/IGNORE.md",
-    "MySQL/IF.md",
-    "MySQL/FIND_IN_SET.md",
-    "MySQL/DUPLICATE KEY UPDATE.md",
     "YII/Array",
     "Linux/Flags",
     "Git/Откат фичи из мастера.drawio",

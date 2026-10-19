@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```sql
 CONCAT_WS('', c3.default_sort, c2.default_sort, c1.default_sort)

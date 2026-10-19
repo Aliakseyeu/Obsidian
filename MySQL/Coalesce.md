@@ -1,3 +1,4 @@
+[[MySql]]
 
 ```mysql
 COALESCE(c3.default_sort, '')
