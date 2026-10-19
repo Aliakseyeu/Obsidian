@@ -1,5 +1,6 @@
 [[MySql]]
 [[REGEXP]]
+[[REPLACE]]
 
 ```
 REGEXP_REPLACE(subject, pattern, replacement
