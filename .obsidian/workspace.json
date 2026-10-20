@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/Добавить столбец или Создать новую таблицу.md",
+                "file": "Laravel/DB/Statement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Добавить столбец или Создать новую таблицу"
+              "title": "Statement"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "helper",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,8 +184,13 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
-    "Linux/Text.md",
+    "Laravel/DB/DB.md",
+    "Laravel/Laravel.md",
+    "Laravel/DB/Statement.md",
+    "MySQL/Без названия.md",
+    "Laravel/Ide-Helper.md",
     "MySQL/Добавить столбец или Создать новую таблицу.md",
+    "Linux/Text.md",
     "Linux/Поиск файлов.md",
     "Сайты/Robots.txt.md",
     "Работа/Обоснование обновления оборудования.md",
@@ -212,11 +217,6 @@
     "MySQL/TIMESTAMPDIFF.md",
     "MySQL/AVG.md",
     "MySQL/CASE.md",
-    "MySQL/Резервное копирование БД.md",
-    "MySQL/Транспонирование таблицы.md",
-    "MySQL/CONCAT.md",
-    "MySQL/Date.md",
-    "MySQL/JSON_ARRAYAGG.md",
     "YII/Array",
     "Linux/Flags",
     "Git/Откат фичи из мастера.drawio",

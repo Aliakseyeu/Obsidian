@@ -1,4 +1,4 @@
-[[DB]]
+[[YII/DB/DB]]
 [[Yii]]
 
 ```php
