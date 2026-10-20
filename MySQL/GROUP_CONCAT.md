@@ -1,4 +1,5 @@
 [[MySql]]
+[[JSON_ARRAYAGG]]
 
 ```mysql
 SELECT
@@ -40,7 +41,7 @@ GROUP_CONCAT(r.name ORDER BY r.name ASC SEPARATOR ', ')
 
 ---
 
-Можно использовать дополнительную склейку [[Concat]]
+Можно использовать дополнительную склейку [[CONCAT]]
 
 ```mysql
 SELECT 
