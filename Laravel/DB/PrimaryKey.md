@@ -1,3 +1,6 @@
+[[Laravel]]
+[[Model]]
+[[Laravel/DB/DB|DB]]
 
 ```php
 protected $primaryKey = 'uuid';

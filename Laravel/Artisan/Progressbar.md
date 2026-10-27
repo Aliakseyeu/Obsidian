@@ -1,5 +1,8 @@
 #artisan
 
+[[Laravel]]
+[[Artisan]]
+
 ```php
 $progressbar = $this->output->createProgressBar($count); // Создание
 $progressbar->start(); // Старт

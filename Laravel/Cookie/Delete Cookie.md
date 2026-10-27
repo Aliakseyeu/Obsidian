@@ -1,3 +1,8 @@
+#cookie
+
+[[Laravel]]
+[[Laravel/Cookie/Cookie|Cookie]]
+
 ```php
 protected array $allowedCookies = [
 	'laravel_session',
