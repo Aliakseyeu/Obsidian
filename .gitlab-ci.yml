@@ -1,0 +1,256 @@
+variables:
+  TAG_COMMIT: $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
+  DOCKER_AUTH_CONFIG: >
+    {
+        "auths": {
+          "registry.webcom-dev.by": {
+            "username": "gitlab-ci-token",
+            "password": "$REGISTRY_CI_TOKEN"
+          }
+        }
+    }
+
+
+stages:
+  - Test
+  - Publish
+  - Deploy
+
+Lint and Test:
+  stage: Test
+  image:
+    name: registry.webcom-dev.by/erp/erp-docker-registry/terpi-swoole-back:${TAG_DOCKER}
+  services:
+    - name: mysql:8
+      alias: db
+    - name: redis:6
+      alias: redis
+  tags:
+    - docker
+  script:
+    - set -euxo pipefail
+    - cp .env.example .env
+    - cp .env.example .env.testing
+    - sed -i 's/^REDIS_HOST=.*$/REDIS_HOST=redis/' .env
+    - sed -i 's/^DB_HOST=.*$/DB_HOST=db/' .env
+    - sed -i 's/^DB_PORT=.*$/DB_PORT=3306/' .env
+    - sed -i 's/^REDIS_PORT=.*$/REDIS_PORT=6379/' .env
+    - sed -i 's/^REDIS_HOST=.*$/REDIS_HOST=redis/' .env.testing
+    - sed -i 's/^DB_HOST=.*$/DB_HOST=db/' .env.testing
+    - sed -i 's/^DB_PORT=.*$/DB_PORT=3306/' .env.testing
+    - sed -i 's/^REDIS_PORT=.*$/REDIS_PORT=6379/' .env.testing
+    - composer install --ignore-platform-req=ext-xdebug --ignore-platform-req=ext-gd --ignore-platform-req=ext-soap
+    - php artisan key:generate
+    - php artisan key:generate --env=testing
+    - php artisan migrate --seed --no-interaction
+    - php artisan ide-helper:models --write-mixin --no-interaction
+    - ./vendor/bin/phpstan analyse --memory-limit=1024M
+    - php artisan config:clear
+    - php artisan cache:clear
+    - php artisan test --no-coverage
+    - echo "artisan_test_exit=$?"
+  variables:
+    MYSQL_DATABASE: crm_local
+    MYSQL_ROOT_PASSWORD: pwd
+    REDIS_PORT: 6379
+    REDIS_HOST: redis
+    REDIS_URL: redis://redis:6379
+  timeout: 30m
+  environment:
+    name: $ENV
+    action: verify
+  artifacts:
+    expire_in: 2 weeks
+    paths:
+      - vendor/
+  cache:
+    key: "vendor-${TAG_DOCKER}-${CI_COMMIT_REF_SLUG}"
+    paths:
+      - vendor/
+#  only:
+#    - merge_requests
+#    - dev1
+#    - dev2
+#    - dev3
+#    - release
+#    - master
+  rules:
+    # Production
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "master" || $CI_COMMIT_BRANCH == "master"'
+      variables:
+        ENV: "prod"
+
+    # Release
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "release" || $CI_COMMIT_BRANCH == "release"'
+      variables:
+        ENV: "stages/release"
+
+    # Dev1
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "dev1" || $CI_COMMIT_BRANCH == "dev1"'
+      variables:
+        ENV: "stages/dev1"
+
+    # Dev2
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "dev2" || $CI_COMMIT_BRANCH == "dev2"'
+      variables:
+        ENV: "stages/dev2"
+
+    # Dev3
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "dev3" || $CI_COMMIT_BRANCH == "dev3"'
+      variables:
+        ENV: "stages/dev3"
+
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+
+
+
+.base_deploy:
+  stage: Deploy
+  tags:
+    - shell
+  dependencies:
+    - Lint and Test
+  needs:
+    - job: Lint and Test
+  variables:
+    SSH_HOST: ${SSH_HOST}
+    SSH_USER: ${SSH_USER}
+    SSH_PORT: ${SSH_PORT}
+    SSH_PASS: ${SSH_PASS}
+    REMOTE_DIR: ${SSH_REMOTE_DIR}
+    GITLAB_PROJECT_ID: ${GITLAB_PROJECT_ID}
+    GITLAB_TOKEN: ${GITLAB_TOKEN}
+    GITLAB_API_URL: ${GITLAB_API_URL}
+    CI_ENVIRONMENT_NAME: ${CI_ENVIRONMENT_NAME}
+
+
+publish_prod:
+  extends: .base_deploy
+  stage: Publish
+  environment: prod
+  tags:
+    - shell
+  script:
+    - echo "$REGISTRY_CI_TOKEN" | docker login -u "gitlab-ci-token" --password-stdin "$CI_REGISTRY"
+    - docker build --build-arg TAG_DOCKER=$TAG_DOCKER -f swarm/Dockerfile -t "$TAG_COMMIT" .
+    - docker push $TAG_COMMIT
+  only:
+    - master
+  allow_failure: false
+
+deploy_prod:
+  stage: Deploy
+  environment: prod
+  tags:
+    - shell
+  before_script:
+    - docker context use "$SWARM_CONTEXT"
+    - export CONFIG_NAME="terpi_app_env_${CI_PIPELINE_ID}_$(date +%s)"
+    - docker config rm "$CONFIG_NAME" || true
+    - echo "$ENV_FILE" | docker config create "$CONFIG_NAME" -
+  script:
+    - echo "$REGISTRY_CI_TOKEN" | docker login -u "gitlab-ci-token" --password-stdin "$CI_REGISTRY"
+    - sed "s/terpi_app_env/$CONFIG_NAME/" swarm/docker-compose.yml > swarm/tmp.yml
+    - timeout 600 docker stack deploy --with-registry-auth --detach=false -c swarm/tmp.yml "$SWARM_SERVICE_NAME"
+    - docker config ls --filter "name=terpi_app_env_" --format '{{.Name}}' | sort | head -n -3 | xargs -r docker config rm
+    - |
+      EXPECTED_IMAGE=$TAG_COMMIT;
+      SERVICES=("backend" "workers")
+      TIMEOUT=120
+      INTERVAL=10
+      ALL_UPDATED=false
+
+      while [ $TIMEOUT -gt 0 ]; do
+        ALL_UPDATED=true
+
+        for SERVICE in "${SERVICES[@]}"; do
+          SERVICE_IMAGE=$(docker service inspect ${SWARM_SERVICE_NAME}_${SERVICE} --format "{{.Spec.TaskTemplate.ContainerSpec.Image}}")
+          RUNNING_TASKS=$(docker service ps ${SWARM_SERVICE_NAME}_${SERVICE} --filter "desired-state=running" --format "{{.CurrentState}} {{.Image}}" | grep -E "^Running" | grep "$TAG_COMMIT" | wc -l)
+
+          if [[ "$SERVICE_IMAGE" != "$EXPECTED_IMAGE"* ]] || [ "$RUNNING_TASKS" -lt 1 ]; then
+            echo "Service ${SERVICE} is not yet updated to image $EXPECTED_IMAGE."
+            ALL_UPDATED=false
+          else
+            echo "Service ${SERVICE} successfully updated to image $EXPECTED_IMAGE."
+          fi
+        done
+
+        if $ALL_UPDATED; then
+          echo "All services updated successfully to $EXPECTED_IMAGE."
+          docker service ps ${SWARM_SERVICE_NAME}_backend || true
+          docker service ps ${SWARM_SERVICE_NAME}_workers || true
+          exit 0
+        fi
+
+        sleep $INTERVAL
+        TIMEOUT=$((TIMEOUT - INTERVAL))
+      done
+
+      echo "Deployment failed: Not all services updated to image $EXPECTED_IMAGE within timeout."
+      docker service ps ${SWARM_SERVICE_NAME}_backend || true
+      docker service ps ${SWARM_SERVICE_NAME}_workers || true
+      exit 1
+  after_script:
+    - docker context use default
+  only:
+    - master
+  allow_failure: false
+
+rollback_prod:
+  stage: Deploy
+  environment: prod
+  tags:
+    - shell
+  before_script:
+    - docker context use "$SWARM_CONTEXT"
+  script:
+    - echo "Starting rollback..."
+    - docker service update --rollback "${SWARM_SERVICE_NAME}_backend"
+    - docker service ps "${SWARM_SERVICE_NAME}_backend"
+    - docker service update --rollback "${SWARM_SERVICE_NAME}_workers"
+    - docker service ps "${SWARM_SERVICE_NAME}_workers"
+  after_script:
+    - docker context use default
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "master"'
+      when: manual
+    - when: never
+  allow_failure: true
+
+
+Deploy on Dev1:
+  extends: .base_deploy
+  script:
+    - bash bin/ci/deploy/deploy_docker.sh
+    - sh bin/ci/deploy/pipeline-clear-olds.sh
+  environment: stages/dev1
+  only:
+    - dev1
+
+Deploy on Dev2:
+  extends: .base_deploy
+  script:
+    - bash bin/ci/deploy/deploy_docker.sh
+    - sh bin/ci/deploy/pipeline-clear-olds.sh
+  environment: stages/dev2
+  only:
+    - dev2
+
+Deploy on Dev3:
+  extends: .base_deploy
+  script:
+    - bash bin/ci/deploy/deploy_docker.sh
+    - sh bin/ci/deploy/pipeline-clear-olds.sh
+  environment: stages/dev3
+  only:
+    - dev3
+
+Deploy on Release:
+  extends: .base_deploy
+  script:
+    - bash bin/ci/deploy/deploy_docker.sh
+    - sh bin/ci/deploy/pipeline-clear-olds.sh
+  environment: stages/release
+  only:
+    - release
+
