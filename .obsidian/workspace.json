@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Text.md",
+                "file": "PHP/file_put_contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Text"
+              "title": "file_put_contents"
             }
           }
         ]
@@ -184,6 +184,10 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
+    "PHP/Отправка файла через форму.md",
+    "PHP/file_put_contents.md",
+    "Linux/Text.md",
+    "Docker/Restart container.md",
     "Docker/Контейнер MySQL.md",
     "Docker/Exec.md",
     "Docker/Docker.md",
@@ -198,7 +202,6 @@
     "PHP/Pure & Impure.md",
     "PHP/PHP Stan/Impure.md",
     "PHP/PHP Stan/PHP Stan.md",
-    "Docker/Restart container.md",
     "Laravel/Cookie/Delete Cookie.md",
     "Laravel/Cookie/Cookie.md",
     "Laravel/Cookie",
@@ -210,10 +213,7 @@
     "Laravel/Artisan/Progressbar.md",
     "Laravel/Artisan/Artisan.md",
     "Laravel/Artisan",
-    "Laravel/Mail/Оповещение о недоставленных письмах.md",
-    "Laravel/Mail/Mail.md",
     "Laravel/Mail",
-    "Docker/Run Terminal.md",
     "Работа/Остатки.canvas",
     "Работа/Поиск.canvas",
     "Работа/Стоимость мини корзины.canvas",
