@@ -23,7 +23,12 @@
 
 `git branch`
 
+```bash
+git branch --show-current 
+```
+
 Текущая ветка будет отмечена `*`.
+--show-current - отобразить только текущую
 
 ---
 
