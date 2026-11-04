@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/file_put_contents.md",
+                "file": "Git/Copy file from branch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "file_put_contents"
+              "title": "Copy file from branch"
             }
           }
         ]
@@ -184,8 +184,9 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
-    "PHP/Отправка файла через форму.md",
     "PHP/file_put_contents.md",
+    "Git/Copy file from branch.md",
+    "PHP/Отправка файла через форму.md",
     "Linux/Text.md",
     "Docker/Restart container.md",
     "Docker/Контейнер MySQL.md",
@@ -211,7 +212,6 @@
     "Laravel/Cache/Cache.md",
     "Laravel/Cache",
     "Laravel/Artisan/Progressbar.md",
-    "Laravel/Artisan/Artisan.md",
     "Laravel/Artisan",
     "Laravel/Mail",
     "Работа/Остатки.canvas",
