@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Branch.md",
+                "file": "Jira/Updated.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Branch"
+              "title": "Updated"
             }
           }
         ]
@@ -184,6 +184,12 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
+    "Jira/Assignee.md",
+    "Jira/Updated.md",
+    "Jira/Timespent.md",
+    "Jira/Jira.md",
+    "Git/Branch.md",
+    "Jira",
     "Git/Search branch.md",
     "Git/Search.md",
     "Git/Copy file from branch.md",
@@ -205,12 +211,7 @@
     "PHP/Pure & Impure.md",
     "PHP/PHP Stan/Impure.md",
     "PHP/PHP Stan/PHP Stan.md",
-    "Laravel/Cookie/Delete Cookie.md",
-    "Laravel/Cookie/Cookie.md",
     "Laravel/Cookie",
-    "Laravel/DB/PrimaryKey.md",
-    "Laravel/DB/Model.md",
-    "Laravel/Cache/Remember.md",
     "Laravel/Cache",
     "Laravel/Artisan",
     "Laravel/Mail",
@@ -226,7 +227,6 @@
     "Git/Откат фичи из мастера.drawio",
     "Откат фичи из мастера.drawio",
     "Книги/Что почитать",
-    "Авторы",
     "Git/Без названия.canvas"
   ]
 }
