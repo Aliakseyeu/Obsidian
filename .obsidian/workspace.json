@@ -11,10 +11,14 @@
             "id": "dde2ad248172790e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Linux/WindscribeVPN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WindscribeVPN"
             }
           }
         ]
@@ -180,6 +184,7 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
+    "Linux/WindscribeVPN.md",
     "Jira/Updated.md",
     "Jira/Assignee.md",
     "Jira/Timespent.md",
@@ -206,7 +211,6 @@
     "PHP/PHP Stan/Analyze.md",
     "PHP/Pure & Impure.md",
     "PHP/PHP Stan/Impure.md",
-    "PHP/PHP Stan/PHP Stan.md",
     "Laravel/Cookie",
     "Laravel/Cache",
     "Laravel/Artisan",
