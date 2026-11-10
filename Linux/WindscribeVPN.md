@@ -11,7 +11,7 @@ sudo apt install ./windscribe-cli.deb
 ```
 
 Далее нужно пройти регистрацию на сайте
-jagajagalimpopo : zirkanibas
+jagajagalimpopo
 
 ```
 windscribe-cli login
