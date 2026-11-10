@@ -10,6 +10,8 @@ curl -L https://github.com/Windscribe/Desktop-App/releases/download/v2.13.4/wind
 sudo apt install ./windscribe-cli.deb
 ```
 
+Далее нужно пройти регистрацию на сайте
+jagajagalimpopo : zirkanibas
 
 ```
 windscribe-cli login
