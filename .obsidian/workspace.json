@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/WindscribeVPN.md",
+                "file": "Sentry/Profiling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WindscribeVPN"
+              "title": "Profiling"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ide-",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,33 +184,34 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
-    "Linux/WindscribeVPN.md",
+    "Sentry/Message.md",
+    "Sentry/Sentry.md",
+    "Sentry/Profiling.md",
+    "Laravel/Artisan/Progressbar.md",
+    "MySQL/LEFT.md",
+    "MySQL/CONCAT.md",
+    "PHP/XML.md",
+    "PHP/Resource Usage.md",
+    "PHP/Pure & Impure.md",
+    "PHP/PHP.md",
+    "PHP/mb_str_split.md",
+    "PHP/json.md",
+    "PHP/GoogleService.md",
+    "PHP/Google API.md",
+    "PHP/File.md",
+    "PHP/file_put_contents.md",
+    "PHP/array_filter.md",
+    "PHP/DockBlock.md",
+    "PHP/File Exists By URL.md",
+    "PHP/Email Filter.md",
+    "PHP/Отправка файла через форму.md",
+    "Soft/WindscribeVPN.md",
+    "Soft/VPN.md",
+    "Программы.md",
+    "Soft",
     "Jira/Updated.md",
     "Jira/Assignee.md",
-    "Jira/Timespent.md",
-    "Jira/Jira.md",
-    "Git/Branch.md",
     "Jira",
-    "Git/Search branch.md",
-    "Git/Search.md",
-    "Git/Copy file from branch.md",
-    "PHP/file_put_contents.md",
-    "PHP/Отправка файла через форму.md",
-    "Linux/Text.md",
-    "Docker/Restart container.md",
-    "Docker/Контейнер MySQL.md",
-    "Docker/Exec.md",
-    "Docker/Docker.md",
-    "Docker/Containers.md",
-    "Docker/Script Execution Time.md",
-    "Docker/Auth.md",
-    "Git/CherryPick.md",
-    "Laravel/Ide-Helper.md",
-    "Docker/Build.md",
-    "PHP/PHP Stan/Cache Clear.md",
-    "PHP/PHP Stan/Analyze.md",
-    "PHP/Pure & Impure.md",
-    "PHP/PHP Stan/Impure.md",
     "Laravel/Cookie",
     "Laravel/Cache",
     "Laravel/Artisan",
@@ -226,7 +227,6 @@
     "Linux/Flags",
     "Git/Откат фичи из мастера.drawio",
     "Откат фичи из мастера.drawio",
-    "Книги/Что почитать",
     "Git/Без названия.canvas"
   ]
 }

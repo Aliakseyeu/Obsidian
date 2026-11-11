@@ -1,3 +1,4 @@
+[[PHP]]
 
 ```php
 $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="utf-8"?><data></data>');

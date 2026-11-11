@@ -21,3 +21,19 @@ $this->withProgressBar(
 	}
 );
 ```
+
+---
+В сидере
+
+```php
+$bar = $this->command->getOutput()->createProgressBar(count($arr));  
+  
+$bar->start();  
+  
+foreach ($arr as $item) {  
+    sleep(1);  
+    $bar->advance();  
+}  
+  
+$bar->finish();
+```

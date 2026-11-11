@@ -1,3 +1,6 @@
+[[PHP]]
+[[File]]
+
 ```php
 file_put_contents(  
     APPLICATION_DIRECTORY . 'tmp/sync.log',  

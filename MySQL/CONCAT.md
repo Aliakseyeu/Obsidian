@@ -26,3 +26,11 @@ LEFT JOIN permissions ON permissions.id = role_has_permissions.permission_id
 WHERE roles.name IN ('viewer', 'exporter', 'manager')
 GROUP BY id
 ```
+
+---
+
+```mysql
+CONCAT('', type)
+```
+
+Таким образом происходит преобразование значения поля к строке, даже если в поле содержится число
