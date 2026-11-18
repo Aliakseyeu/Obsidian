@@ -1,4 +1,9 @@
+#javascript 
+
+[[JavaScript]]
+
 Событие срабатывает в момент завершения анимации перехода. Затем удаляется, чтобы не было повторного срабатывания
+
 ```js
 const fadeOut = new Promise(resolve => {
         items.style.transition = 'opacity 0.5s';

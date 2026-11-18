@@ -1,3 +1,7 @@
+#javascript #bash 
+
+[[JavaScript]]
+
 ### Проверить что установлен vite в [[package.json]]
 
 ### Установить

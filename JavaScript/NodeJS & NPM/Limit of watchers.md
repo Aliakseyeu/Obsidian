@@ -1,3 +1,6 @@
+#javascript #linux #bash 
+
+[[JavaScript]]
 
 System limit for number of file watchers reached
 

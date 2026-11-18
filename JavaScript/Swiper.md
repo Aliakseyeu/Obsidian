@@ -1,3 +1,8 @@
+#javascript 
+
+[[JavaScript]]
+[[NPM]]
+
 Слайдер
 
 ```bash

@@ -1,3 +1,7 @@
+#javascript 
+
+[[JavaScript]]
+
 ```json
 {
   "private": true,

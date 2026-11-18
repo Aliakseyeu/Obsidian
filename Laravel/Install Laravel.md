@@ -8,7 +8,7 @@ composer create-project laravel/laravel .
 
 "." указывает на то что установка произойдет в текущий каталог. Можно изменить на требуемую директорию
 
-[[Установка NodeJs, NPM]] 
+[[Install NodeJs, NPM]] 
 [[Установка Composer]]
-[[Установка Vite]]
+[[Install Vite]]
 [[Установка Tailwind|Установка Tailwind]]

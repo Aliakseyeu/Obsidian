@@ -1,6 +1,7 @@
-#javascript #event
+#javascript 
 
-События
+[[JavaScript]]
+
 ### Событие
 ```js
 export default class ItemsSortedEvent extends CustomEvent {

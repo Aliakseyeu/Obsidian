@@ -1,3 +1,9 @@
+#javascript 
+
+[[AlpineJs]]
+[[JavaScript]]
+[[Event]]
+
 ```js
 document.addEventListener('alpine:init', () => {
     Alpine.data('width', (size) => ({

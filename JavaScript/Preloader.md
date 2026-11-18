@@ -1,7 +1,7 @@
 #javascript 
 
-Preloader
-[[Переключение прозрачности]]
+[[JavaScript]]
+[[OpacityToggle]]
 
 ```js
 import opacityToggle from "./opacityToggle"

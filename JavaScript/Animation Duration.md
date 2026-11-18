@@ -1,4 +1,6 @@
-#js 
+#javascript 
+
+[[JavaScript]]
 
 Animation duration
 

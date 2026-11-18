@@ -1,3 +1,8 @@
+#javascript #regexp
+
+[[JavaScript]]
+[[RegularExpression]]
+
 ```js
 string.match(/\[(.*?)\]/)
 ```

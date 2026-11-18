@@ -1,6 +1,7 @@
 #javascript 
 
-[[Длительность анимации]]
+[[JavaScript]]
+[[Animation Duration]]
 
 ```js
 import transitionTime from "./transitionTime"

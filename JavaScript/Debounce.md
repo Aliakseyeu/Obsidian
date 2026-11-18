@@ -1,6 +1,9 @@
 #javascript 
 
+[[JavaScript]]
+
 Задержка перед событием
+
 ```js
 export default function debounce(func, delay = 300) {
     let timeoutId
