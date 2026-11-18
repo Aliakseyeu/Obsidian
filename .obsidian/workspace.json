@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Script Execution Time.md",
+                "file": "Git/Change Link To Repository.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Script Execution Time"
+              "title": "Change Link To Repository"
             }
           }
         ]
@@ -184,6 +184,12 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
+    "Git/Branch.md",
+    "Git/Amend.md",
+    "Git/Conflict.md",
+    "Git/Rollback.md",
+    "Git/Git.md",
+    "Docker/Script Execution Time.md",
     "Docker/Run Terminal.md",
     "Docker/Restart container.md",
     "Docker/Memory Limit.md",
@@ -204,12 +210,6 @@
     "Работа/Обоснование обновления оборудования.md",
     "ООП/Entity.md",
     "ООП/ValueObject.md",
-    "Soft/WindscribeVPN.md",
-    "JavaScript/NodeJS & NPM/package.json.md",
-    "JavaScript/NodeJS & NPM/Limit of watchers.md",
-    "JavaScript/NodeJS & NPM/Glob.md",
-    "JavaScript/NodeJS & NPM/Install Vite.md",
-    "JavaScript/NodeJS & NPM/Install NodeJs, NPM.md",
     "Soft",
     "Jira",
     "Laravel/Cookie",
