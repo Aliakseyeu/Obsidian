@@ -1,3 +1,7 @@
+#php 
+
+[[Laravel]]
+[[Laravel/DB/DB|DB]]
 
 ```php
 public function relation(): HasMany  
