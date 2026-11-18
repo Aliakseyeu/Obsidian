@@ -1,4 +1,4 @@
-#vpn
+#linux #bash 
 
 [[Linux]]
 [[VPN]]

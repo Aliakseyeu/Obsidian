@@ -1,3 +1,4 @@
+[[Docker]]
 
  nginx.conf
 
@@ -21,3 +22,9 @@ server {
 [[Restart container]] или пересборка
 
 [[Get current container settings]]
+
+---
+
+```dockerfile
+RUN echo "memory_limit = 512M" > /usr/local/etc/php/conf.d/memory-limit.ini
+```
