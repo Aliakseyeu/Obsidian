@@ -1,3 +1,7 @@
+#php 
+
+[[Laravel]]
+[[Laravel/DB/DB|DB]]
 
 ```php
 DB::enableQueryLog();

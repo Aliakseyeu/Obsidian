@@ -1,3 +1,8 @@
+#php
+
+[[Laravel]]
+[[Laravel/DB/DB|DB]]
+[[Migrations]]
 
 ```php
 return new class extends Migration  
