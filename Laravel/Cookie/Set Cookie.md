@@ -1,3 +1,8 @@
+#php 
+
+[[Laravel]]
+[[Cookie]]
+
 ```php
 $consentToken = Str::ulid();
 Cookie::queue(

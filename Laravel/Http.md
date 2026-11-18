@@ -1,3 +1,7 @@
+#php 
+
+[[Laravel]]
+
 Для проверки почему может не работать fake можно использовать 
 ```php
 Http::preventStrayRequests();

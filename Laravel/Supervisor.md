@@ -1,4 +1,7 @@
-#laravel #linux #supervisor
+ #linux #bash 
+
+[[Laravel]]
+[[Queue]]
 
 ```
 sudo apt-get update

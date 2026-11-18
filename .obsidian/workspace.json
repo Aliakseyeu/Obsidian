@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/DB/ForceIndex.md",
+                "file": "Laravel/Install Laravel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ForceIndex"
+              "title": "Install Laravel"
             }
           }
         ]
@@ -184,11 +184,25 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
+    "Laravel/Http.md",
+    "Laravel/Supervisor.md",
+    "Laravel/Queue.md",
+    "Laravel/Read Excel.md",
+    "Laravel/Cookie/Set Cookie.md",
+    "Laravel/Cookie/Cookie.md",
+    "Laravel/Cookie/Delete Cookie.md",
+    "Laravel/Config.md",
+    "Laravel/DB/Upsert.md",
+    "Laravel/DB/Statement.md",
+    "Laravel/DB/QueryLog.md",
+    "Laravel/DB/PrimaryKey.md",
+    "Laravel/DB/Model.md",
+    "Laravel/DB/HasManyThrough.md",
+    "Laravel/DB/ForceIndex.md",
     "Laravel/DB/Custom HasMany.md",
     "Laravel/DB/Cursor.md",
     "Laravel/DB/Connection.md",
     "Laravel/DB/ColumnType.md",
-    "Laravel/DB/QueryLog.md",
     "Laravel/DB/Migrations/Rollback.md",
     "Laravel/DB/Migrations/Foreign Key.md",
     "Linux/Скрипт перезапуска процесса.md",
@@ -196,20 +210,6 @@
     "MySQL/Резервное копирование БД.md",
     "MySQL/Транспонирование таблицы.md",
     "PHPStorm/Открыть в браузере.md",
-    "Sentry/Profiling.md",
-    "Sentry/Message.md",
-    "Sentry/Sentry.md",
-    "Laravel/Artisan/Progressbar.md",
-    "MySQL/LEFT.md",
-    "MySQL/CONCAT.md",
-    "PHP/XML.md",
-    "PHP/Resource Usage.md",
-    "PHP/Pure & Impure.md",
-    "PHP/PHP.md",
-    "PHP/mb_str_split.md",
-    "PHP/json.md",
-    "PHP/GoogleService.md",
-    "PHP/Google API.md",
     "Soft",
     "Jira",
     "Laravel/Cookie",
