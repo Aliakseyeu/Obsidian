@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Change Link To Repository.md",
+                "file": "MySQL/Find Table by Column.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Change Link To Repository"
+              "title": "Find Table by Column"
             }
           }
         ]
@@ -184,6 +184,9 @@
   },
   "active": "dde2ad248172790e",
   "lastOpenFiles": [
+    "Laravel/DB/QueryLog.md",
+    "MySQL/Find Table by Column.md",
+    "Git/Change Link To Repository.md",
     "Git/Branch.md",
     "Git/Amend.md",
     "Git/Conflict.md",
@@ -207,9 +210,6 @@
     "Composer/Install Composer.md",
     "Composer/Composer.md",
     "Ссылки/Песочницы.md",
-    "Работа/Обоснование обновления оборудования.md",
-    "ООП/Entity.md",
-    "ООП/ValueObject.md",
     "Soft",
     "Jira",
     "Laravel/Cookie",
