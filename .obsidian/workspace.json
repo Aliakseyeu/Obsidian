@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YII/Download From S3.md",
+                "file": "YII/Yii.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Download From S3"
+              "title": "Yii"
             }
           }
         ],
@@ -185,9 +185,12 @@
   },
   "active": "5b0b606638f4613f",
   "lastOpenFiles": [
-    "YII/Read Excel.md",
-    "YII/Response.md",
     "YII/Run Console Command.md",
+    "YII/Response.md",
+    "YII/Read Excel.md",
+    "YII/Download From S3.md",
+    "Soft/S3.md",
+    "Программы.md",
     "YII/Array/KeyBy.md",
     "YII/Array/GroupBy.md",
     "YII/Array/ArrayHelper.md",
@@ -208,9 +211,6 @@
     "PHP/Bitrix/Стили и скрипты/Перенос скрипта в конец страницы.md",
     "PHP/Bitrix/События/События.md",
     "PHP/Bitrix/События/Обработчики событий.md",
-    "PHP/Bitrix/Респонс/Получение.md",
-    "PHP/Bitrix/Реквест/Получение.md",
-    "PHP/Bitrix/Пользователи/Регистрация.md",
     "Soft",
     "Jira",
     "Laravel/Cookie",
