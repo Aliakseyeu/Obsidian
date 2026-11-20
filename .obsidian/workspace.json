@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/Bitrix/HighLoad Блоки/Создание.md",
+                "file": "YII/Download From S3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Создание"
+              "title": "Download From S3"
             }
           }
         ],
@@ -185,6 +185,13 @@
   },
   "active": "5b0b606638f4613f",
   "lastOpenFiles": [
+    "YII/Read Excel.md",
+    "YII/Response.md",
+    "YII/Run Console Command.md",
+    "YII/Array/KeyBy.md",
+    "YII/Array/GroupBy.md",
+    "YII/Array/ArrayHelper.md",
+    "PHP/Bitrix/HighLoad Блоки/Создание.md",
     "PHP/Bitrix/HighLoad Блоки/Событие.md",
     "PHP/Bitrix/HighLoad Блоки/Получение записи.md",
     "PHP/Bitrix/HighLoad Блоки/Добавление полей.md",
@@ -204,13 +211,6 @@
     "PHP/Bitrix/Респонс/Получение.md",
     "PHP/Bitrix/Реквест/Получение.md",
     "PHP/Bitrix/Пользователи/Регистрация.md",
-    "PHP/Bitrix/Пользователи/Права доступа.md",
-    "PHP/Bitrix/Пользователи/Пользователи.md",
-    "PHP/Bitrix/Bitrix.md",
-    "PHP/Bitrix/Пользователи/Группы пользователя.md",
-    "PHP/Bitrix/Отладка/SQL.md",
-    "PHP/Bitrix/Отладка/Установка заглушки для техработ.md",
-    "PHP/Bitrix/Отладка/Страница ошибок подключения к БД.md",
     "Soft",
     "Jira",
     "Laravel/Cookie",
