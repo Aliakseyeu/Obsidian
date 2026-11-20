@@ -27,7 +27,7 @@ else
 fi
 ```
 
-[[Pipes & Append Redirection Operators]]
+[[Output]]
 [[Output]]
 
 ---

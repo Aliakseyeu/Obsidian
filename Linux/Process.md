@@ -15,4 +15,4 @@ kill <id>
 pkill -9 -f 'pattern'
 ```
 
-При использовании ps aux можно использовать [[Pipes & Append Redirection Operators]] для проброса вывода, например в [[Grep]]
+При использовании ps aux можно использовать [[Output]] для проброса вывода, например в [[Grep]]

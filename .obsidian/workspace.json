@@ -21,7 +21,8 @@
               "title": "Output"
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -186,6 +187,9 @@
   "lastOpenFiles": [
     "Linux/Pipes & Append Redirection Operators.md",
     "Linux/Output.md",
+    "Linux/Bash.md",
+    "Linux/Без названия.md",
+    "Linux/Без названия 1.md",
     "Linux/nohup.md",
     "Linux/Linux.md",
     "Linux/If.md",
@@ -197,7 +201,6 @@
     "Linux/Color.md",
     "Linux/Chown.md",
     "Linux/bash_profile.md",
-    "Linux/Bash.md",
     "Linux/&.md",
     "Linux/Process Restart.md",
     "Linux/Process.md",
@@ -208,8 +211,6 @@
     "Linux/Flags/i.md",
     "MySQL/Find Table by Column.md",
     "Laravel/DB/QueryLog.md",
-    "Git/Change Link To Repository.md",
-    "Git/Branch.md",
     "Soft",
     "Jira",
     "Laravel/Cookie",
