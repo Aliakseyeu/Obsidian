@@ -1,4 +1,7 @@
-#bash 
+#linux #bash 
+
+[[Linux]]
+[[Bash]]
 
 ```bash
 command >/dev/null 2>&1
@@ -27,4 +30,4 @@ command >/dev/null 2>&1
 |1|`stdout`|стандартный вывод|нормальный вывод программы|экран|
 |2|`stderr`|стандартный поток ошибок|сообщения об ошибках|экран|
 
-[[Pipes и Операторы перенаправления вывода]]
+[[Pipes & Append Redirection Operators]]

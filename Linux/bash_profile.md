@@ -1,3 +1,7 @@
+#linux #bash 
+
+[[Linux]]
+[[Bash]]
 
 ```bash
 alias ll="ls -la"

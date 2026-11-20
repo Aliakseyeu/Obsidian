@@ -1,6 +1,7 @@
-[[Bash]] 
+#linux #bash 
 
-#bash 
+[[Linux]]
+[[Bash]] 
 
 Если нет возможности использовать [[Linux/Supervisor|Supervisor]]
 На примере запуска очереди [[Queue]] Laravel
@@ -26,8 +27,8 @@ else
 fi
 ```
 
-[[Pipes и Операторы перенаправления вывода]]
-[[Перенаправление вывода]]
+[[Pipes & Append Redirection Operators]]
+[[Output]]
 
 ---
 

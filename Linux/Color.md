@@ -1,4 +1,7 @@
-[[Поиск файлов]]
+#linux #bash 
+
+[[Linux]]
+[[Bash]]
 [[Grep]]
 
 ```

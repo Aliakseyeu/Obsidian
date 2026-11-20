@@ -1,4 +1,8 @@
-#linux [[Grep]]
+#linux #bash 
+
+[[Linux]]
+[[Grep]]
+[[Bash]]
 ### Поиск с учетом маски имени файл
 ```bash
 find . -iname '*pattern*' -exec grep -r -A 3 --color 'pattern' {} +
@@ -10,18 +14,6 @@ grep -C 10 "pattern" /path/to/file
 ### Поиск в архивах
 
 [[For]]
-
----
-
-Эта команда найдет найдет строки с двумя вхождениями и подсветит вхождения
-
-```bash
-grep -iE --color=always 'some_text' access.log | grep -E --color=always 'another'
-```
-
-[[Подсветка вхождений]]
-[[i]] 
-[[E]]
 
 ---
 

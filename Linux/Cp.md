@@ -1,6 +1,8 @@
-#bash 
+#linux  #bash 
 
+[[Linux]]
 [[Bash]]
+[[rsync]]
 
 ```bash
 cp -r * destination/

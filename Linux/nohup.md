@@ -1,3 +1,9 @@
+#linux #bash 
+
+[[Linux]]
+[[Bash]]
+[[Output]]
+
 ```bash
 nohup command
 ```

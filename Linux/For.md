@@ -1,3 +1,7 @@
+#linux #bash 
+
+[[Linux]]
+[[Bash]]
 ### Поиск с распаковкой
 
 ```bash
