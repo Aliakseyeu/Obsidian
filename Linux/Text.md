@@ -1,3 +1,9 @@
+#linux #bash 
+
+[[Linux]]
+[[Bash]]
+[[Grep]]
+[[Output]]
 
 Переписать все содержимое файла
 

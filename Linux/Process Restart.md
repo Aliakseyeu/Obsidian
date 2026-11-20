@@ -28,7 +28,6 @@ fi
 ```
 
 [[Output]]
-[[Output]]
 
 ---
 
