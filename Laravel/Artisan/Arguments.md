@@ -1,7 +1,8 @@
-#php 
+#php #bash
 
 [[Laravel]]
 [[Artisan]]
+[[Bash]]
 
 ---
 **Arguments**
