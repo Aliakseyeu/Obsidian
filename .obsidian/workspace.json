@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d21534929e87772",
+        "id": "4152c4ce5b7e83e9",
         "type": "tabs",
         "children": [
           {
-            "id": "5b0b606638f4613f",
+            "id": "c044667250b0b982",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ссылки/Без названия.md",
+                "file": "MySQL/CONCAT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
-            }
-          },
-          {
-            "id": "c2c062979fb3e571",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MySQL/SELECT FOR SHARE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SELECT FOR SHARE"
+              "title": "CONCAT"
             }
           }
         ],
@@ -197,8 +183,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b0b606638f4613f",
+  "active": "c044667250b0b982",
   "lastOpenFiles": [
+    "MySQL/COALESCE.md",
+    "MySQL/CASE.md",
+    "MySQL/AVG.md",
+    "MySQL/Transponse Table.md",
+    "MySQL/DB Backup.md",
+    "MySQL/Size of Each Table.md",
+    "MySQL/Is We Can Add Column.md",
+    "MySQL/DROP DEFAULT.md",
     "Git/Branch.md",
     "Ссылки/Без названия.md",
     "MySQL/SELECT FOR UPDATE.md",
@@ -217,14 +211,6 @@
     "Программы.md",
     "YII/Array/KeyBy.md",
     "YII/Array/GroupBy.md",
-    "YII/Array/ArrayHelper.md",
-    "PHP/Bitrix/HighLoad Блоки/Создание.md",
-    "PHP/Bitrix/HighLoad Блоки/Событие.md",
-    "PHP/Bitrix/HighLoad Блоки/Получение записи.md",
-    "PHP/Bitrix/HighLoad Блоки/Добавление полей.md",
-    "PHP/Bitrix/HighLoad Блоки/Добавление записи.md",
-    "PHP/Bitrix/Хелперы/Ссылка на текущую страницу.md",
-    "PHP/Bitrix/Хелперы/Ресайз изображения.md",
     "Soft",
     "Jira",
     "Laravel/Cookie",

@@ -1,4 +1,5 @@
 [[MySql]]
+[[Is We Can Add Column]]
 
 ```sql
 SELECT table_name AS "Table", 

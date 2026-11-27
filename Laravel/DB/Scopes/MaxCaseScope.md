@@ -53,5 +53,5 @@ public function scopeWithAttribute(Builder $query, Attributes $attribute): Build
 }
 ```
 
-[[Транспонирование таблицы]]
+[[Transponse Table]]
 [[Фильтрация по ключу]]

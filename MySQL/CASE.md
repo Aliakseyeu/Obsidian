@@ -1,5 +1,5 @@
 [[MySql]]
-[[Транспонирование таблицы]]
+[[Transponse Table]]
 
 ```mysql
 CASE имя_поля
