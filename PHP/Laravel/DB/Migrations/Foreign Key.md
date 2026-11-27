@@ -1,7 +1,7 @@
 #php
 
 [[Laravel]]
-[[Laravel/DB/DB|DB]]
+[[PHP/Laravel/DB/DB|DB]]
 [[Migrations]]
 
 ```php

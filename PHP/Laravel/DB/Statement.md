@@ -1,5 +1,5 @@
 [[Laravel]]
-[[Laravel/DB/DB|DB]]
+[[PHP/Laravel/DB/DB|DB]]
 
 ```php
 use Illuminate\Support\Facades\DB;

@@ -1,7 +1,7 @@
 #php #mysql 
 
 [[Laravel]]
-[[Laravel/DB/DB|DB]]
+[[PHP/Laravel/DB/DB|DB]]
 
 ```php
 ->leftJoin(

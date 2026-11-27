@@ -1,7 +1,7 @@
 #cookie
 
 [[Laravel]]
-[[Laravel/Cookie/Cookie|Cookie]]
+[[Cookie|Cookie]]
 
 ```php
 protected array $allowedCookies = [
